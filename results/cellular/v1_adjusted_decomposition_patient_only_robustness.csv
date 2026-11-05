@@ -1,0 +1,2 @@
+analysis,comparison_count,total_direction_preserved,within_cell_type_larger_than_composition,minimum_valid_bootstrap_resamples,minimum_abs_within_to_composition_ratio
+Patient-only random-intercept model-specification sensitivity,8,8,8,5000,2.59497723769146

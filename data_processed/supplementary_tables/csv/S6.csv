@@ -1,0 +1,22 @@
+﻿"Supplementary Table S6. Radiologic, regional, and proteomic associations",,,,,
+,,,,,
+A. CT-defined tumor solidity,,,,,
+Program,Solid − pure non-solid coefficient (95% CI),"Tumors, n","Patients, n",,
+V2,0.737 (0.359 to 1.114),44,43,,
+V3,0.638 (0.419 to 0.858),44,43,,
+V4,-0.682 (-0.933 to -0.431),44,43,,
+,,,,,
+B. Paired ground-glass and solid tumor regions,,,,,
+Program,Directional concordance,"Paired tumors, n",,,
+V2,6/7 higher in solid region,7,,,
+V3,6/7 higher in solid region,7,,,
+V4,6/7 lower in solid region,7,,,
+,,,,,
+C. Proteomic enrichment,,,,,
+Program,NES,FDR,Measured / published members,Leave-one-protein-out runs,"Samples, n"
+V1,1.15,0.299,9/115 (7.8%),Reference only,65
+V2,2.00,3.3 × 10⁻⁴,19/37 (51.4%),19 leave-one-protein-out runs,65
+V3,2.43,5.7 × 10⁻¹⁰,68/182 (37.4%),68 leave-one-protein-out runs,65
+V4,-2.40,7.6 × 10⁻⁹,86/140 (61.4%),86 leave-one-protein-out runs,65
+,,,,,
+"Note. Proteomic enrichment used the measured subset of each published program (V2, 19/37; V3, 68/182; V4, 86/140). The ≥80% coverage threshold in Table S2 applies only to outcome-score analyses.",,,,,

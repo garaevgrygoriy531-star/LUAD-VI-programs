@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+.env
+.env.*
+.vscode/
+.idea/
+~$*
+*.tmp

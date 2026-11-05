@@ -1,0 +1,19 @@
+﻿"Supplementary Table S1. Study cohorts, analytical populations, and analytical roles",,,,,
+,,,,,
+Evidence layer,Dataset,Modality,Analytical population,Pathology / phenotype,Primary analysis
+Discovery,GSE308103,Single-nucleus RNA sequencing / sample pseudobulk,23 patients; 75 samples/specimens,Normal 24; AAH 9; AIS 14; MIA 4; invasive LUAD 24,All specimens for stage models; eligible sample-cell-type units for cellular analyses
+Principal replication,GSE319666,Laser-capture transcriptomics,177 specimens / 40 patients; primary contrast 129 / 38,Normal 48; AAH 68; AIS/MIA 12; ADC 49,Primary contrast; paired analysis (21 patients); stage IA analysis (92 specimens / 33 patients)
+VI phenotype anchoring,Steiner VI cohort (GSE273528),Bulk RNA sequencing,58 patients; 59 samples/specimens,VI-positive 17; VI-negative 42,59 lesions in separate V1-adjusted Firth models
+Expanded replication,GSE166720,Bulk transcriptomics,53 samples / 53 patients,AIS 13; MIA 6; AC 6; MP 5; PAP 2; SOL 7; LPA 13; unclassified 1,AIS/MIA vs invasive AC/MP/PAP/SOL: 39 patients
+Expanded replication,GSE102511,Bulk transcriptomics,48 specimens / 17 patients,Normal 15; AAH 17; invasive LUAD 16,Paired AAH–invasive-LUAD analysis: 16 patients
+Expanded replication,GSE282617,Bulk RNA sequencing,60 specimens,AIS 20; MIA 17; IAC 23,AIS/MIA/invasive contrasts
+Orthogonal convergence,GSE193725,Tumor transcriptomics,54 samples / 44 patients,Pure non-solid 23; solid 21; adjacent normal 10,Solid vs pure non-solid contrast: 44 tumors / 43 patients
+Orthogonal convergence,GSE288479,Regional transcriptomics,7 patients; 21 samples/specimens,Ground-glass 7; solid 7; DN source-control regions 7,7 paired ground-glass/solid tumors
+Orthogonal convergence,PXD046637,Processed proteomics,65 processed samples,Measured protein-abundance profiles,Program-level protein-set enrichment
+Stage-I outcome,GSE50081,Bulk transcriptomics + survival,92 stage-I LUAD patients; 31 deaths,Stage-I LUAD,Primary OS cohort; V2/V3/V4 Cox analysis
+Stage-I outcome,GSE31210,Bulk transcriptomics + survival,162 stage-I LUAD patients; 16 deaths,Stage-I LUAD,Primary OS cohort; V2/V3/V4 Cox analysis
+Stage-I outcome,GSE30219,Bulk transcriptomics + survival,69 stage-I LUAD patients; 31 deaths,Stage-I LUAD,Primary OS cohort; V2/V3/V4 Cox analysis
+External cellular concordance,GSE189357,Single-cell RNA sequencing,"115,253 cells / 9 patients",AIS 3; MIA 3; IAC 3,Patient × broad-lineage pseudobulk
+Spatial support,GSE189487,Spatial transcriptomics,6 spatial samples,AIS 2; MIA 2; IAC 2,Sample-level spatial analysis
+,,,,,
+"Note. OS, overall survival; VI, vascular invasion; CT, computed tomography; ADC, adenocarcinoma; IAC, invasive adenocarcinoma. GSE282617 was analyzed at specimen level because public patient identifiers were unavailable. Cellular decomposition in GSE308103 was restricted to 25 eligible fine cell types. GSE189487 was generated in the same study as GSE189357 and included overlapping patients.",,,,,

@@ -1,0 +1,13 @@
+# Data provenance
+
+metadata/datasets.csv identifies each source accession, assay, analytical population, inferential unit, and role. metadata/provenance_manifest.csv links distributed data and result files to source objects, transformations, analysis scripts, and uses. Figure and table inputs are listed in metadata/figure_table_map.csv. In the provenance manifest, related_script means: Public analysis or rendering script directly associated with the file; this field does not necessarily denote the original upstream generator.
+
+V1–V4 program memberships are attributed to Steiner et al. (Nature Communications, 2026; DOI: 10.1038/s41467-026-70600-2). The ORACLE gene list is identified in metadata/program_members/ORACLE.txt; published coefficients are available in Biswas et al. (Nature Medicine, 2019), Supplementary Table 5 (DOI: 10.1038/s41591-019-0595-z). The coefficient table is not included. ORACLE scores calculated for this study remain in the processed score tables.
+
+The GSE102511 score table retains source sample labels. It contains 48 specimens from 17 patients (17 AAH, 16 LUAD, and 15 normal-lung specimens); the primary paired AAH–LUAD comparison uses 32 specimens from 16 patients. For GSE319666, data_processed/pathology/gse319666_stage_ia_membership.tsv identifies the 92 specimens from 33 patients included in the Stage IA contrast. GSE282617 metadata do not include a patient crosswalk, so its 60-sample contrast is analyzed at the sample level. GSE189487 provides spatial support from the same study as GSE189357.
+
+The PXD046637 enrichment, leave-one-out, and summary tables were calculated from the normalized abundance values reported in Su et al. (Nature Communications, 2025; DOI: 10.1038/s41467-025-57364-x), Supplementary Data 2, proteomics sheet. Raw mass-spectrometry files were not used to generate these summaries. The per-gene ranking table derived from the article supplement is not distributed. To reconstruct the analyses, obtain the source publication data or study data at PRIDE (PXD046637) and run the enrichment workflow.
+
+Figure 1A uses a native vector schematic supplied with the figure materials. Figure 5A uses the supplied UMAP point layer. Figure S4D uses the included V1-adjusted decomposition result table; the renderer displays its 16 component estimates and 32 confidence-interval endpoints without refitting the underlying cellular models.
+
+GSE319666 raw sequence data may be subject to controlled-access requirements. This repository contains derived values from publicly available processed GEO material and does not redistribute controlled-access raw human genomic data.

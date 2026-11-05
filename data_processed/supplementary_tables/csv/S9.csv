@@ -1,0 +1,39 @@
+﻿Supplementary Table S9. External cellular concordance and spatial support,,,,,,,
+,,,,,,,
+A. GSE189357 broad-lineage effects,,,,,,,
+Lineage,Program,"AIS/MIA, n","IAC, n",Difference (95% bootstrap CI),Hedges g (95% bootstrap CI),Exact P,BH-adjusted P
+Epithelial,V2,6,3,-0.081 (-0.544 to 0.379),-0.159 (-1.144 to 1.500),0.8571,0.8571
+Epithelial,V3,6,3,0.844 (0.325 to 1.434),2.094 (1.447 to 8.296),0.0119,0.02381
+Epithelial,V4,6,3,-0.517 (-1.140 to 0.039),-1.002 (-3.405 to 0.090),0.1667,0.2698
+Fibroblast/stromal,V2,6,3,0.938 (-0.330 to 1.810),1.198 (-0.996 to 8.073),0.08333,0.3333
+Fibroblast/stromal,V3,6,3,0.276 (-0.328 to 0.808),0.741 (-2.849 to 6.988),0.3214,0.4286
+Fibroblast/stromal,V4,6,3,-0.399 (-0.712 to -0.072),-1.177 (-3.376 to -0.275),0.131,0.2698
+Endothelial,V2,6,3,0.354 (-0.498 to 1.096),0.591 (-1.783 to 4.895),0.3571,0.5556
+Endothelial,V3,6,3,0.225 (-0.220 to 0.865),0.562 (-1.612 to 4.863),0.4524,0.4524
+Endothelial,V4,6,3,-0.351 (-0.804 to 0.115),-0.903 (-3.135 to 0.440),0.2024,0.2698
+Myeloid,V2,6,3,0.302 (-0.577 to 0.968),0.471 (-1.293 to 4.448),0.4167,0.5556
+Myeloid,V3,6,3,0.576 (0.372 to 0.812),2.948 (2.330 to 7.631),0.0119,0.02381
+Myeloid,V4,6,3,-0.336 (-0.896 to 0.236),-0.686 (-2.539 to 0.790),0.3214,0.3214
+,,,,,,,
+B. GSE189357 sensitivity analyses,,,,,,,
+Lineage,Program,LOPO concordance,V1-residualized difference,Exact P,,,
+Epithelial,V2,22.2%,-0.182,0.6429,,,
+Epithelial,V3,100.0%,0.159,0.2262,,,
+Epithelial,V4,100.0%,-0.006,0.9643,,,
+Fibroblast/stromal,V2,100.0%,0.883,0.04762,,,
+Fibroblast/stromal,V3,100.0%,0.240,0.09524,,,
+Fibroblast/stromal,V4,100.0%,-0.402,0.1071,,,
+Endothelial,V2,88.9%,0.302,0.4643,,,
+Endothelial,V3,88.9%,0.139,0.3214,,,
+Endothelial,V4,100.0%,-0.310,0.2024,,,
+Myeloid,V2,100.0%,0.298,0.4286,,,
+Myeloid,V3,100.0%,0.072,0.5833,,,
+Myeloid,V4,100.0%,0.097,0.6429,,,
+,,,,,,,
+C. GSE189487 spatial-sample analysis,,,,,,,
+Program,"AIS/MIA, n","IAC, n",Difference (95% bootstrap CI),Hedges g (95% bootstrap CI),Exact P,,
+V2,4,2,0.073 (-0.637 to 0.783),0.112 (-4.328 to 1.959),0.9333,,
+V3,4,2,0.945 (0.827 to 1.063),9.947 (9.680 to 117.459),0.06667,,
+V4,4,2,-1.010 (-1.118 to -0.891),-7.572 (-148.252 to -6.322),0.06667,,
+,,,,,,,
+"Note. GSE189357 uses patient × broad-lineage pseudobulk. V2/V3 directions matched 7 of 8 lineage contrasts; epithelial V2 was the exception. LOPO, leave-one-patient-out. GSE189487 provides sample-level spatial support from overlapping patients.",,,,,,,

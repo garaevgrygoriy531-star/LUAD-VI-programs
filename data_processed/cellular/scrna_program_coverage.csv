@@ -1,0 +1,21 @@
+lineage,anchor,n_pseudobulks,coverage,coverage_raw,effective_post_z_coverage,zero_sd_genes_dropped,scorable,score_method
+Epithelial,V1,9,0.991304347826087,0.991304347826087,0.991304347826087,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Epithelial,V2,9,0.945945945945946,0.945945945945946,0.945945945945946,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Epithelial,V3,9,0.884615384615385,0.884615384615385,0.884615384615385,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Epithelial,V4,9,0.964285714285714,0.964285714285714,0.964285714285714,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Epithelial,ORACLE,9,1,1,NA,NA,TRUE,locked ORACLE coefficients x TMM logCPM; expressed-gene rule
+Fibroblast,V1,9,0.991304347826087,0.991304347826087,0.991304347826087,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Fibroblast,V2,9,0.945945945945946,0.945945945945946,0.945945945945946,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Fibroblast,V3,9,0.846153846153846,0.846153846153846,0.846153846153846,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Fibroblast,V4,9,0.957142857142857,0.957142857142857,0.957142857142857,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Fibroblast,ORACLE,9,1,1,NA,NA,TRUE,locked ORACLE coefficients x TMM logCPM; expressed-gene rule
+Endothelial,V1,9,0.991304347826087,0.991304347826087,0.991304347826087,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Endothelial,V2,9,0.918918918918919,0.918918918918919,0.918918918918919,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Endothelial,V3,9,0.862637362637363,0.862637362637363,0.862637362637363,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Endothelial,V4,9,0.95,0.95,0.95,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Endothelial,ORACLE,9,1,1,NA,NA,TRUE,locked ORACLE coefficients x TMM logCPM; expressed-gene rule
+Myeloid,V1,9,0.991304347826087,0.991304347826087,0.991304347826087,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Myeloid,V2,9,0.945945945945946,0.945945945945946,0.945945945945946,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Myeloid,V3,9,0.89010989010989,0.89010989010989,0.89010989010989,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Myeloid,V4,9,0.964285714285714,0.964285714285714,0.964285714285714,0,TRUE,edgeR TMM logCPM; row-wise gene z-score; equal-weight member mean
+Myeloid,ORACLE,9,1,1,NA,NA,TRUE,locked ORACLE coefficients x TMM logCPM; expressed-gene rule

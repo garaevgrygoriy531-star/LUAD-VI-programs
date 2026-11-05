@@ -1,0 +1,5 @@
+dataset	processed_samples	anchor	protein_coverage_fraction	NES	FDR	direction_concordant	interpretation
+PXD046637	65	V1	0.0782608695652174	1.14630724158311	0.299474605954466	TRUE	Exploratory processed-supplement enrichment; no ORACLE protein estimator
+PXD046637	65	V2	0.513513513513513	2.00403468328088	0.000327740774797569	TRUE	Exploratory processed-supplement enrichment; no ORACLE protein estimator
+PXD046637	65	V3	0.373626373626374	2.43460911006693	5.66429862891278e-10	TRUE	Exploratory processed-supplement enrichment; no ORACLE protein estimator
+PXD046637	65	V4	0.614285714285714	-2.39512627196932	7.64558423055597e-09	TRUE	Exploratory processed-supplement enrichment; no ORACLE protein estimator

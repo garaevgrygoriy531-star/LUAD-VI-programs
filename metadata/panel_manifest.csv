@@ -1,0 +1,42 @@
+﻿panel_id,figure_id,letter,scientific_role,statistical_representation,visualization,layout
+F1a,F1,a,Histologic categories and externally defined gene programs,Schematic; no patient-level effect estimate,schematic,A
+F1b,F1,b,Stage-specific program scores in the discovery cohort,"Stage means with 95% patient-cluster bootstrap intervals; 5,000 resamples",trajectory,A
+F1c,F1,c,"Comparison of gradual, invasive-step, and hinge models","AICc and invasive-step selection proportions from 1,000 patient-cluster resamples",models,A
+F1d,F1,d,Observed model separation against matched random gene sets,"Empirical tail probabilities from 5,000 matched gene sets",null,A
+F1e,F1,e,Precursor-span and invasive-state contributions across two cohorts,Effect decomposition with 95% patient-cluster bootstrap intervals,compact_architecture,COMPACT
+F2a,F2,a,Overlap among GSE319666 analysis populations,"Patient counts by primary, paired, and Stage IA eligibility",populations,B
+F2b,F2,b,Primary GSE319666 invasive versus earlier-state contrast,Mixed-effects coefficients with model-based 95% confidence intervals,interval,A
+F2c,F2,c,Stage-model selection in the full GSE319666 cohort,"AICc and preference proportions from 1,000 patient-cluster resamples",models,A
+F2d,F2,d,Within-patient earlier-state and LUAD differences,Paired patient differences and 95% paired-bootstrap intervals,paired,A
+F2e,F2,e,Stage IA GSE319666 invasive versus earlier-state contrast,Patient-intercept mixed-effects coefficients with model-based 95% confidence intervals,interval,A
+F3a,F3,a,Unadjusted and V1-adjusted pathology contrasts in two cohorts,Patient-intercept mixed-effects coefficients with patient-cluster 95% bootstrap intervals,integrated_adjusted,INTEGRATED
+F3b,F3,b,V1-adjusted program associations with microscopic vascular invasion,Firth logistic odds ratios per 1-SD increase with profile penalized-likelihood 95% intervals,compact_vi,COMPACT
+F3c,F3,c,Reduction in absolute invasive-state contrast after V1 adjustment,Percent attenuation calculated from unadjusted and V1-adjusted coefficients,selected_coefficients,C
+F4a,F4,a,AIS/MIA versus invasive contrasts in external pathology cohorts,Standardized sample-level contrasts with HC3-robust 95% t intervals,interval_matrix,A
+F4b,F4,b,Program-score differences by CT solidity in GSE193725,Solid minus pure non-solid tumor contrasts with 95% confidence intervals,interval,A
+F4c,F4,c,Program scores in paired ground-glass and solid regions,Seven within-tumor pairs; sample-level scores,regional_pairs,A
+F4d,F4,d,Program-member enrichment in PXD046637 proteomics,Normalized enrichment scores with leave-one-protein-out direction checks,proteomics_strip,EVIDENCE_STRIP
+F4e,F4,e,Stage I overall-survival associations across three cohorts,Cohort-specific Cox estimates and REML/Hartung-Knapp pooled 95% intervals,survival,A
+F5a,F5,a,"Broad-lineage distribution across 798,100 discovery nuclei",UMAP visualization; descriptive display,umap,A
+F5b,F5,b,V1-adjusted V2 and V3 differences across eligible lineages,Sample-by-lineage pseudobulk mixed-effects estimates with 95% intervals,interval_matrix,A
+F5c,F5,c,Patient-balanced cellular decomposition by broad lineage,"Within-cell-type score, composition, covariance, and total components; patient-bootstrap intervals",decomposition,A
+F5d,F5,d,V4 total effects across cellular lineages,LUAD minus earlier-state effects with patient-cluster bootstrap intervals,interval,A
+F5e,F5,e,Independent patient-level cellular replication in GSE189357,Lineage contrasts across nine patients with 95% bootstrap intervals,independent,B
+S1a,S1,a,Held-out prediction across three stage-model specifications,Marginal predictive log-likelihood by model,heldout,A
+S1b,S1,b,Full-sequence and lesion-only architecture contrasts,Step-minus-span contrast estimates from two cohorts and analysis settings,scenario_intervals,A
+S1c,S1,c,Lesion-only precursor spans and invasive-state increments,Component estimates with 95% patient-cluster bootstrap intervals,architecture_components,A
+S1d,S1,d,Influence of individual patients on architecture estimates,Leave-one-patient-out effect estimates,patient_influence,A
+S2a,S2,a,Stage-specific contrasts in two external pathology cohorts,Group contrasts with HC3-robust 95% confidence intervals,stage_cross,A
+S2b,S2,b,Paired AAH-to-LUAD differences in GSE102511,Within-patient mean differences across 16 pairs,interval,A
+S2c,S2,c,Standardized invasive-versus-early contrasts across cohorts,Cohort-specific estimates and 95% confidence intervals,interval_matrix,A
+S3a,S3,a,Program-member coverage in screened survival cohorts,Measured-member fraction and gene count,coverage,A
+S3b,S3,b,Available adjusted and V1-adjusted survival estimates,Cohort-specific and pooled hazard ratios with 95% confidence intervals,interval_matrix,A
+S3c,S3,c,Pooled overall-survival estimates and sensitivity analyses,REML/Hartung-Knapp estimates and leave-one-cohort-out intervals,pooled_robustness,INTEGRATED
+S3d,S3,d,Secondary recurrence-associated outcomes,Cohort-specific time-to-event associations by source endpoint label,survival,A
+S4a,S4,a,Patient support for discovery fine cell types,Earlier-state and LUAD patient counts with eligibility thresholds,eligibility,B
+S4b,S4,b,Sensitivity of cellular effects to analysis choices,Maximum absolute deviation of total and within-cell-type estimates,sensitivity_grid,A
+S4c,S4,c,Influence of individual patients on cellular estimates,Primary estimates and leave-one-patient-out ranges,decomp_lopo,A
+S4d,S4,d,V1-adjusted decomposition sensitivity across four broad lineages,"Point estimates and 95% patient-cluster bootstrap intervals; 5,000 resamples",v1_adjusted_decomposition,D
+S5a,S5,a,V1-adjusted effects in independent cellular replication,Patient-level lineage contrasts and 95% confidence intervals,independent_adjusted,A
+S5b,S5,b,Directional concordance in leave-one-patient-out analyses,Concordant direction counts across patient omissions,concordance,B
+S5c,S5,c,Spatial expression differences in GSE189487,Six sample-level contrasts from the same study as GSE189357,interval,A

@@ -1,0 +1,7 @@
+"dataset","program","reference_group","invasive_group","n_reference","n_invasive","n_samples","n_patients","estimate","se_HC3","ci_low","ci_high","p_value","inferential_unit","model"
+"GSE166720","V2","AIS/MIA","Invasive",19,20,39,39,1.18634865545669,0.262308022024524,0.654862118238525,1.71783519267485,6.09569070148324e-05,"patient","Linear contrast with HC3 standard error"
+"GSE166720","V3","AIS/MIA","Invasive",19,20,39,39,1.41520737230242,0.229338146825622,0.950524147719276,1.87989059688555,3.68718946048683e-07,"patient","Linear contrast with HC3 standard error"
+"GSE166720","V4","AIS/MIA","Invasive",19,20,39,39,-1.46153944962014,0.222983149175778,-1.9133462258626,-1.00973267337769,1.11977357384749e-07,"patient","Linear contrast with HC3 standard error"
+"GSE282617","V2","AIS/MIA","Invasive",37,23,60,,0.326477809195418,0.259852518433016,-0.193673520251122,0.846629138641957,0.214009182775558,"sample","Linear contrast with HC3 standard error"
+"GSE282617","V3","AIS/MIA","Invasive",37,23,60,,0.595121676574723,0.273091231889953,0.048470182933843,1.1417731702156,0.0333914377477646,"sample","Linear contrast with HC3 standard error"
+"GSE282617","V4","AIS/MIA","Invasive",37,23,60,,-0.917190109870308,0.248683510824894,-1.41498424150712,-0.419395978233496,0.000499653272664399,"sample","Linear contrast with HC3 standard error"

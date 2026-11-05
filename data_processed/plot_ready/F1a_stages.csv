@@ -1,0 +1,6 @@
+stage_order,stage_code,display_label,full_name,analysis_group,notes
+0,Normal,Normal,Normal lung,reference,Source stage labels retained; schematic only.
+1,AAH,AAH,Atypical adenomatous hyperplasia,precursor,
+2,AIS,AIS,Adenocarcinoma in situ,precursor,
+3,MIA,MIA,Minimally invasive adenocarcinoma,precursor,
+4,LUAD,LUAD,Invasive lung adenocarcinoma,invasive,

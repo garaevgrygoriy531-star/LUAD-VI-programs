@@ -1,0 +1,52 @@
+﻿panel_or_table,figure_or_table,output_file,processed_inputs,generating_script
+F1a,F1,figures/Figure_1.pdf,data_processed/plot_ready/F1a_programs.csv;data_processed/plot_ready/F1a_stages.csv;data_processed/figure_assets/F1a.svg,code/09_figures/render_figures.R
+F1b,F1,figures/Figure_1.pdf,data_processed/plot_ready/F1b_raw.csv;data_processed/plot_ready/F1b_summary.csv,code/09_figures/render_figures.R
+F1c,F1,figures/Figure_1.pdf,data_processed/plot_ready/F1c.csv,code/09_figures/render_figures.R
+F1d,F1,figures/Figure_1.pdf,data_processed/plot_ready/F1d_null.csv;data_processed/plot_ready/F1d_observed.csv,code/09_figures/render_figures.R
+F1e,F1,figures/Figure_1.pdf,data_processed/plot_ready/F1e_components.csv;data_processed/plot_ready/F1e_step_minus_span.csv,code/09_figures/render_figures.R
+F2a,F2,figures/Figure_2.pdf,data_processed/plot_ready/F2a_counts.csv;data_processed/plot_ready/F2a_membership.csv,code/09_figures/render_figures.R
+F2b,F2,figures/Figure_2.pdf,data_processed/plot_ready/F2b.csv,code/09_figures/render_figures.R
+F2c,F2,figures/Figure_2.pdf,data_processed/plot_ready/F2c.csv,code/09_figures/render_figures.R
+F2d,F2,figures/Figure_2.pdf,data_processed/plot_ready/F2d_paired.csv;data_processed/plot_ready/F2d_summary.csv,code/09_figures/render_figures.R
+F2e,F2,figures/Figure_2.pdf,data_processed/plot_ready/F2e.csv,code/09_figures/render_figures.R
+F3a,F3,figures/Figure_3.pdf,data_processed/plot_ready/F3a_integrated.csv,code/09_figures/render_figures.R
+F3b,F3,figures/Figure_3.pdf,data_processed/plot_ready/F3b_vi.csv,code/09_figures/render_figures.R
+F3c,F3,figures/Figure_3.pdf,data_processed/plot_ready/F3c.csv,code/09_figures/prepare_f3c_data.py
+F4a,F4,figures/Figure_4.pdf,data_processed/plot_ready/F4a.csv,code/09_figures/render_figures.R
+F4b,F4,figures/Figure_4.pdf,data_processed/plot_ready/F4b.csv,code/09_figures/render_figures.R
+F4c,F4,figures/Figure_4.pdf,data_processed/plot_ready/F4c.csv,code/09_figures/render_figures.R
+F4d,F4,figures/Figure_4.pdf,data_processed/plot_ready/F4d.csv,code/09_figures/render_figures.R
+F4e,F4,figures/Figure_4.pdf,data_processed/plot_ready/F4e.csv,code/09_figures/render_figures.R
+F5a,F5,figures/Figure_5.pdf,data_processed/plot_ready/F5a_umap_point_layer.png,code/09_figures/render_figures.R
+F5b,F5,figures/Figure_5.pdf,data_processed/plot_ready/F5b.csv,code/09_figures/render_figures.R
+F5c,F5,figures/Figure_5.pdf,data_processed/plot_ready/F5c.csv,code/09_figures/render_figures.R
+F5d,F5,figures/Figure_5.pdf,data_processed/plot_ready/F5d.csv,code/09_figures/render_figures.R
+F5e,F5,figures/Figure_5.pdf,data_processed/plot_ready/F5e.csv,code/09_figures/render_figures.R
+S1a,S1,figures/Supplementary_Figure_S1.pdf,data_processed/plot_ready/S1a.csv,code/09_figures/render_figures.R
+S1b,S1,figures/Supplementary_Figure_S1.pdf,data_processed/plot_ready/S1b.csv,code/09_figures/render_figures.R
+S1c,S1,figures/Supplementary_Figure_S1.pdf,data_processed/plot_ready/S1c_components.csv;data_processed/plot_ready/S1c_step_minus_span.csv,code/09_figures/render_figures.R
+S1d,S1,figures/Supplementary_Figure_S1.pdf,data_processed/plot_ready/S1d.csv,code/09_figures/render_figures.R
+S2a,S2,figures/Supplementary_Figure_S2.pdf,data_processed/plot_ready/S2a.csv,code/09_figures/render_figures.R
+S2b,S2,figures/Supplementary_Figure_S2.pdf,data_processed/plot_ready/S2b.csv,code/09_figures/render_figures.R
+S2c,S2,figures/Supplementary_Figure_S2.pdf,data_processed/plot_ready/S2c.csv,code/09_figures/render_figures.R
+S3a,S3,figures/Supplementary_Figure_S3.pdf,data_processed/plot_ready/S3a.csv,code/09_figures/render_figures.R
+S3b,S3,figures/Supplementary_Figure_S3.pdf,data_processed/plot_ready/S3b.csv,code/09_figures/render_figures.R
+S3c,S3,figures/Supplementary_Figure_S3.pdf,data_processed/plot_ready/S3c_robustness.csv,code/09_figures/render_figures.R
+S3d,S3,figures/Supplementary_Figure_S3.pdf,data_processed/plot_ready/S3d.csv,code/09_figures/render_figures.R
+S4a,S4,figures/Supplementary_Figure_S4.pdf,data_processed/plot_ready/S4a.csv,code/09_figures/render_figures.R
+S4b,S4,figures/Supplementary_Figure_S4.pdf,data_processed/plot_ready/S4b.csv,code/09_figures/render_figures.R
+S4c,S4,figures/Supplementary_Figure_S4.pdf,data_processed/plot_ready/S4c.csv,code/09_figures/render_figures.R
+S4d,S4,figures/Supplementary_Figure_S4.pdf,data_processed/plot_ready/S4d.csv;results/cellular/v1_adjusted_decomposition_sensitivity.csv;results/cellular/v1_adjusted_decomposition_patient_only_robustness.csv,code/09_figures/prepare_s4d_data.py
+S5a,S5,figures/Supplementary_Figure_S5.pdf,data_processed/plot_ready/S5a.csv,code/09_figures/render_figures.R
+S5b,S5,figures/Supplementary_Figure_S5.pdf,data_processed/plot_ready/S5b.csv,code/09_figures/render_figures.R
+S5c,S5,figures/Supplementary_Figure_S5.pdf,data_processed/plot_ready/S5c.csv,code/09_figures/render_figures.R
+Table 1,Main,data_processed/supplementary_tables/main_table_1.csv,data_processed/supplementary_tables/main_table_1.csv,Manual transcription from the supplied Main Table 1 document
+Table S1,Supplementary,data_processed/supplementary_tables/csv/S1.csv,data_processed/supplementary_tables/supplementary_tables_s1_s9.xlsx,code/10_tables/export_supplementary_tables.py
+Table S2,Supplementary,data_processed/supplementary_tables/csv/S2.csv,data_processed/supplementary_tables/supplementary_tables_s1_s9.xlsx,code/10_tables/export_supplementary_tables.py
+Table S3,Supplementary,data_processed/supplementary_tables/csv/S3.csv,data_processed/supplementary_tables/supplementary_tables_s1_s9.xlsx,code/10_tables/export_supplementary_tables.py
+Table S4,Supplementary,data_processed/supplementary_tables/csv/S4.csv,data_processed/supplementary_tables/supplementary_tables_s1_s9.xlsx,code/10_tables/export_supplementary_tables.py
+Table S5,Supplementary,data_processed/supplementary_tables/csv/S5.csv,data_processed/supplementary_tables/supplementary_tables_s1_s9.xlsx,code/10_tables/export_supplementary_tables.py
+Table S6,Supplementary,data_processed/supplementary_tables/csv/S6.csv,data_processed/supplementary_tables/supplementary_tables_s1_s9.xlsx,code/10_tables/export_supplementary_tables.py
+Table S7,Supplementary,data_processed/supplementary_tables/csv/S7.csv,data_processed/supplementary_tables/supplementary_tables_s1_s9.xlsx,code/10_tables/export_supplementary_tables.py
+Table S8,Supplementary,data_processed/supplementary_tables/csv/S8.csv,data_processed/supplementary_tables/supplementary_tables_s1_s9.xlsx;results/cellular/v1_adjusted_decomposition_sensitivity.csv;results/cellular/v1_adjusted_decomposition_patient_only_robustness.csv,code/10_tables/export_supplementary_tables.py
+Table S9,Supplementary,data_processed/supplementary_tables/csv/S9.csv,data_processed/supplementary_tables/supplementary_tables_s1_s9.xlsx,code/10_tables/export_supplementary_tables.py

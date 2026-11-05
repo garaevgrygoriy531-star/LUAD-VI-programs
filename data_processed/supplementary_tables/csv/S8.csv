@@ -1,0 +1,77 @@
+﻿Supplementary Table S8. Discovery cellular analyses,,,,,
+,,,,,
+A. Cellular populations included in the decomposition,,,,,
+Broad lineage,Fine cell type,"Nuclei, n","Patients, n","AAH/AIS/MIA patients, n","Invasive-LUAD patients, n"
+Epithelial,AT0,3406,14,8,12
+Epithelial,AT1,33030,23,22,23
+Epithelial,AT2,98166,23,22,23
+Epithelial,Basal resting,12291,22,18,21
+Epithelial,Club (non-nasal),7172,22,13,21
+Epithelial,Multiciliated (non-nasal),12754,22,19,21
+Epithelial,pre-TB secretory,4694,18,9,17
+Fibroblast/stromal,Adventitial fibroblasts,10233,20,13,20
+Fibroblast/stromal,Alveolar fibroblasts,57820,23,22,23
+Fibroblast/stromal,Myofibroblasts,5108,16,10,14
+Fibroblast/stromal,Peribronchial fibroblasts,18148,22,9,22
+Fibroblast/stromal,Pericytes,6875,20,18,17
+Fibroblast/stromal,Smooth muscle,15202,22,19,22
+Endothelial,EC aerocyte capillary,12113,23,20,19
+Endothelial,EC arterial,15298,23,21,21
+Endothelial,EC general capillary,14677,22,20,19
+Endothelial,EC venous pulmonary,8089,23,20,21
+Endothelial,EC venous systemic,9212,22,13,22
+Endothelial,Lymphatic EC differentiating,3691,18,12,16
+Myeloid,Alveolar macrophages,9805,22,19,19
+Myeloid,Classical monocytes,3914,16,12,15
+Myeloid,DC2,3338,16,8,15
+Myeloid,Interstitial Mph perivascular,13207,23,21,22
+Myeloid,Monocyte-derived Mph,23530,23,18,23
+Myeloid,Non-classical monocytes,7236,22,16,20
+,,,,,
+B. V1-adjusted broad-lineage associations,,,,,
+Lineage,V2 coefficient (95% CI),V3 coefficient (95% CI),,,
+Epithelial,0.241 (-0.041 to 0.523),0.399 (0.251 to 0.548),,,
+Fibroblast/stromal,0.559 (0.294 to 0.825),0.332 (0.214 to 0.449),,,
+Endothelial,0.453 (0.220 to 0.686),0.293 (0.193 to 0.392),,,
+Myeloid,0.740 (0.513 to 0.968),0.336 (0.228 to 0.444),,,
+,,,,,
+C. Cellular decomposition,,,,,
+Lineage,Program,Total effect (95% CI),Within-cell-type program-score component (95% CI),Fine-cell-type composition component (95% CI),Covariance component (95% CI)
+Epithelial,V2,0.559 (0.357 to 0.765),0.487 (0.311 to 0.670),0.047 (0.027 to 0.070),0.026 (-0.002 to 0.050)
+Epithelial,V3,0.566 (0.422 to 0.709),0.488 (0.372 to 0.608),0.036 (0.016 to 0.062),0.042 (0.017 to 0.064)
+Fibroblast/stromal,V2,0.695 (0.481 to 0.915),0.459 (0.310 to 0.617),0.163 (0.094 to 0.249),0.073 (0.028 to 0.119)
+Fibroblast/stromal,V3,0.500 (0.332 to 0.667),0.369 (0.231 to 0.519),0.075 (0.043 to 0.111),0.057 (0.021 to 0.085)
+Endothelial,V2,0.577 (0.350 to 0.813),0.423 (0.265 to 0.596),0.107 (0.052 to 0.170),0.047 (-0.005 to 0.095)
+Endothelial,V3,0.412 (0.260 to 0.594),0.331 (0.204 to 0.476),0.048 (0.022 to 0.082),0.034 (-0.002 to 0.072)
+Myeloid,V2,0.683 (0.462 to 0.907),0.594 (0.394 to 0.803),0.055 (0.028 to 0.087),0.035 (-0.008 to 0.071)
+Myeloid,V3,0.411 (0.274 to 0.557),0.341 (0.229 to 0.466),0.051 (0.028 to 0.078),0.019 (-0.013 to 0.045)
+,,,,,
+D. Sensitivity analyses,,,,,
+Sensitivity setting,V2 total deviation,V2 within-cell-type program-score deviation,V3 total deviation,V3 within-cell-type program-score deviation,
+Minimum 25 nuclei per sample–cell-type unit,0.042,0.045,0.044,0.020,
+Minimum 100 nuclei per sample–cell-type unit,0.091,0.064,0.115,0.033,
+No TMM normalization,0.024,0.023,0.026,0.021,
+Paired patients,0.023,0.026,0.020,0.016,
+Cell-count weighting,0.140,0.091,0.060,0.088,
+Alternative fine-type scores,0.006,0.005,0.008,0.007,
+Leave-one-patient-out,0.053,0.047,0.051,0.045,
+E. V4 decomposition and total effects across broad lineages,,,,,
+,,,,,
+Lineage,Total effect,Within-cell-type,Fine-cell-type composition,Covariance,
+Epithelial,-0.365 (-0.495 to -0.243),-0.337 (-0.442 to -0.238),-0.017 (-0.064 to 0.028),-0.011 (-0.032 to 0.012),
+Fibroblast/stromal,-0.290 (-0.416 to -0.169),-0.217 (-0.321 to -0.118),-0.066 (-0.096 to -0.042),-0.006 (-0.026 to 0.014),
+Endothelial,-0.194 (-0.304 to -0.098),-0.150 (-0.236 to -0.073),-0.024 (-0.045 to -0.008),-0.020 (-0.046 to 0.006),
+Myeloid,-0.031 (-0.107 to 0.042),-0.023 (-0.094 to 0.045),0.015 (0.001 to 0.029),-0.023 (-0.055 to 0.006),
+"Note. Values are effect estimates with 95% CIs. The primary cellular analysis includes 798,100 nuclei from 75 specimens and 23 patients. In the primary V2/V3 decomposition, the within-cell-type program-score component exceeded the fine-cell-type composition component in all eight lineage-program comparisons. V4 decomposition is reported for completeness; its myeloid total effect was near zero.",,,,,
+,,,,,
+F. V1-adjusted decomposition sensitivity,,,,,
+Lineage,Program,Total effect (95% CI),Within-cell-type program-score component (95% CI),Fine-cell-type composition component (95% CI),Covariance component (95% CI)
+Epithelial,V2,0.484 (0.277 to 0.697),0.424 (0.245 to 0.614),0.039 (0.021 to 0.061),0.021 (-0.007 to 0.045)
+Epithelial,V3,0.374 (0.253 to 0.496),0.328 (0.226 to 0.431),0.018 (0.004 to 0.034),0.028 (0.008 to 0.045)
+Fibroblast/stromal,V2,0.703 (0.484 to 0.924),0.465 (0.316 to 0.619),0.164 (0.095 to 0.252),0.074 (0.026 to 0.120)
+Fibroblast/stromal,V3,0.312 (0.188 to 0.402),0.213 (0.119 to 0.280),0.055 (0.030 to 0.082),0.045 (0.020 to 0.065)
+Endothelial,V2,0.559 (0.335 to 0.773),0.409 (0.252 to 0.565),0.106 (0.052 to 0.165),0.044 (-0.007 to 0.090)
+Endothelial,V3,0.228 (0.141 to 0.308),0.186 (0.109 to 0.256),0.037 (0.018 to 0.058),0.006 (-0.015 to 0.025)
+Myeloid,V2,0.595 (0.361 to 0.831),0.527 (0.321 to 0.747),0.042 (0.018 to 0.073),0.026 (-0.015 to 0.060)
+Myeloid,V3,0.197 (0.094 to 0.285),0.180 (0.105 to 0.250),0.020 (-0.004 to 0.042),-0.004 (-0.026 to 0.016)
+"Note. Values are V1-adjusted effect estimates with percentile 95% CIs from 5,000 patient-cluster bootstrap replicates in which the V1 model was refit within each replicate. The direction of the total effect was preserved in all eight lineage-program comparisons, and the within-cell-type component remained larger in absolute magnitude than the fine-cell-type composition component in all eight. A uniform patient-only random-intercept analysis preserved the same ordering.",,,,,

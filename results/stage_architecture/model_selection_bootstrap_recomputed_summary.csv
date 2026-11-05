@@ -1,0 +1,19 @@
+"dataset","program","model","selected"
+"GSE308103","V2","Gradual",0
+"GSE319666","V2","Gradual",0.01
+"GSE308103","V3","Gradual",0
+"GSE319666","V3","Gradual",0
+"GSE308103","V4","Gradual",0
+"GSE319666","V4","Gradual",0
+"GSE308103","V2","Hinge",0.072
+"GSE319666","V2","Hinge",0.423
+"GSE308103","V3","Hinge",0.079
+"GSE319666","V3","Hinge",0.152
+"GSE308103","V4","Hinge",0.013
+"GSE319666","V4","Hinge",0.393
+"GSE308103","V2","Invasive step",0.928
+"GSE319666","V2","Invasive step",0.567
+"GSE308103","V3","Invasive step",0.921
+"GSE319666","V3","Invasive step",0.848
+"GSE308103","V4","Invasive step",0.987
+"GSE319666","V4","Invasive step",0.607

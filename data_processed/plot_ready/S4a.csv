@@ -1,0 +1,44 @@
+row,lineage,pre,luad,eligible
+EC aerocyte capillary,Endothelial,20,19,TRUE
+EC arterial,Endothelial,21,21,TRUE
+EC general capillary,Endothelial,20,19,TRUE
+EC venous pulmonary,Endothelial,20,21,TRUE
+EC venous systemic,Endothelial,13,22,TRUE
+Lymphatic EC differentiating,Endothelial,12,16,TRUE
+Lymphatic EC mature,Endothelial,1,0,FALSE
+AT0,Epithelial,8,12,TRUE
+AT1,Epithelial,22,23,TRUE
+AT2,Epithelial,22,23,TRUE
+AT2 proliferating,Epithelial,1,7,FALSE
+Basal resting,Epithelial,18,21,TRUE
+Club (nasal),Epithelial,0,2,FALSE
+Club (non-nasal),Epithelial,13,21,TRUE
+Deuterosomal,Epithelial,0,1,FALSE
+Goblet (nasal),Epithelial,0,8,FALSE
+Goblet (subsegmental),Epithelial,0,1,FALSE
+Hillock-like,Epithelial,0,10,FALSE
+Multiciliated (non-nasal),Epithelial,19,21,TRUE
+Neuroendocrine,Epithelial,0,2,FALSE
+SMG duct,Epithelial,1,6,FALSE
+SMG mucous,Epithelial,1,0,FALSE
+SMG serous (bronchial),Epithelial,1,3,FALSE
+Suprabasal,Epithelial,5,12,FALSE
+pre-TB secretory,Epithelial,9,17,TRUE
+Adventitial fibroblasts,Fibroblast/stromal,13,20,TRUE
+Alveolar fibroblasts,Fibroblast/stromal,22,23,TRUE
+Myofibroblasts,Fibroblast/stromal,10,14,TRUE
+Peribronchial fibroblasts,Fibroblast/stromal,9,22,TRUE
+Pericytes,Fibroblast/stromal,18,17,TRUE
+SM activated stress response,Fibroblast/stromal,2,2,FALSE
+Smooth muscle,Fibroblast/stromal,19,22,TRUE
+Smooth muscle FAM83D+,Fibroblast/stromal,1,0,FALSE
+Subpleural fibroblasts,Fibroblast/stromal,0,5,FALSE
+Alveolar macrophages,Myeloid,19,19,TRUE
+Classical monocytes,Myeloid,12,15,TRUE
+DC1,Myeloid,2,6,FALSE
+DC2,Myeloid,8,15,TRUE
+Interstitial Mph perivascular,Myeloid,21,22,TRUE
+Migratory DCs,Myeloid,1,7,FALSE
+Monocyte-derived Mph,Myeloid,18,23,TRUE
+Non-classical monocytes,Myeloid,16,20,TRUE
+Plasmacytoid DCs,Myeloid,0,6,FALSE

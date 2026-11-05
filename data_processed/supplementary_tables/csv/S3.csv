@@ -1,0 +1,66 @@
+﻿Supplementary Table S3. Stage architecture and sensitivity analyses,,,,,,
+,,,,,,
+A. Stage-associated program scores in GSE308103,,,,,,
+Program,Stage,Mean score (95% CI),"Specimens, n","Patients, n",,
+V2,Normal,-0.230 (-0.380 to -0.065),24,23,,
+V2,AAH,-0.192 (-0.473 to 0.096),9,8,,
+V2,AIS,-0.430 (-0.605 to -0.282),14,12,,
+V2,MIA,-0.163 (-0.399 to 0.214),4,4,,
+V2,Invasive LUAD,0.580 (0.221 to 0.957),24,23,,
+V3,Normal,-0.302 (-0.382 to -0.221),24,23,,
+V3,AAH,-0.214 (-0.317 to -0.125),9,8,,
+V3,AIS,-0.260 (-0.343 to -0.182),14,12,,
+V3,MIA,-0.178 (-0.313 to -0.091),4,4,,
+V3,Invasive LUAD,0.563 (0.343 to 0.795),24,23,,
+V4,Normal,0.201 (0.096 to 0.313),24,23,,
+V4,AAH,0.179 (0.054 to 0.352),9,8,,
+V4,AIS,0.262 (0.154 to 0.373),14,12,,
+V4,MIA,0.169 (-0.065 to 0.337),4,4,,
+V4,Invasive LUAD,-0.449 (-0.694 to -0.217),24,23,,
+,,,,,,
+B. Model comparison in GSE308103,,,,,,
+Program,Gradual AICc,Step AICc,Hinge AICc,ΔAICc gradual–step,"Step preference, %",
+V2,148.649,134.488,136.514,14.161,93.2,
+V3,80.351,62.145,63.714,18.206,92.3,
+V4,90.642,76.084,78.309,14.558,98.1,
+,,,,,,
+C. Matched-null and held-out comparisons,,,,,,
+Program,Matched-set empirical P,Held-out gradual,Held-out step,Held-out hinge,,
+V2,2.0 × 10⁻⁴,-3.265,-2.981,-2.995,,
+V3,2.0 × 10⁻⁴,-1.720,-1.357,-1.351,,
+V4,6.0 × 10⁻⁴,-1.970,-1.696,-1.709,,
+,,,,,,
+D. Distribution of stage-associated change in the two principal pathology cohorts,,,,,,
+Dataset,Program,Earlier-state span (95% CI),Invasive-state increment (95% CI),Step-minus-span contrast (95% CI),Invasive fraction,
+GSE308103,V2,-0.106 (-0.349 to 0.140),0.934 (0.582 to 1.299),1.040 (0.524 to 1.564),89.8%,
+GSE308103,V3,0.112 (0.000 to 0.210),0.764 (0.516 to 1.022),0.651 (0.329 to 0.986),87.2%,
+GSE308103,V4,-0.040 (-0.191 to 0.112),0.700 (0.465 to 0.947),0.740 (0.446 to 1.054),94.7%,
+GSE319666,V2,-0.167 (-0.392 to 0.042),0.527 (0.208 to 0.850),0.695 (0.210 to 1.196),75.9%,
+GSE319666,V3,-0.051 (-0.207 to 0.076),0.480 (0.288 to 0.691),0.531 (0.260 to 0.849),90.4%,
+GSE319666,V4,-0.135 (-0.295 to 0.003),0.619 (0.394 to 0.852),0.754 (0.425 to 1.118),82.1%,
+,,,,,,
+E. Lesion-only and leave-one-patient-out analyses,,,,,,
+Dataset,Program,Analysis,Step-minus-span contrast (95% CI),Invasive fraction (95% CI),LOPO contrast range,Patients / specimens
+GSE308103,V2,Primary sequence including Normal,1.040 (0.524 to 1.564),0.898 (0.741 to 0.994),0.922 to 1.175,23 / 75
+GSE308103,V3,Primary sequence including Normal,0.651 (0.329 to 0.986),0.872 (0.727 to 0.988),0.590 to 0.702,23 / 75
+GSE308103,V4,Primary sequence including Normal,0.740 (0.446 to 1.054),0.947 (0.780 to 0.995),0.655 to 0.792,23 / 75
+GSE319666,V2,Primary sequence including Normal,0.695 (0.210 to 1.196),0.759 (0.609 to 0.967),0.589 to 0.834,40 / 177
+GSE319666,V3,Primary sequence including Normal,0.531 (0.260 to 0.849),0.904 (0.720 to 0.994),0.450 to 0.595,40 / 177
+GSE319666,V4,Primary sequence including Normal,0.754 (0.425 to 1.118),0.821 (0.707 to 0.980),0.668 to 0.814,40 / 177
+GSE308103,V2,Lesion-only (AAH/AIS/MIA/LUAD),0.760 (-0.388 to 1.531),0.903 (0.354 to 0.989),0.465 to 0.892,23 / 51
+GSE308103,V3,Lesion-only (AAH/AIS/MIA/LUAD),0.751 (0.417 to 1.086),0.962 (0.783 to 0.997),0.680 to 0.815,23 / 51
+GSE308103,V4,Lesion-only (AAH/AIS/MIA/LUAD),0.715 (0.277 to 1.132),0.971 (0.664 to 0.994),0.600 to 0.812,23 / 51
+GSE319666,V2,Lesion-only (AAH/AIS/MIA/LUAD),0.299 (-0.228 to 0.831),0.780 (0.221 to 0.987),0.153 to 0.451,38 / 129
+GSE319666,V3,Lesion-only (AAH/AIS/MIA/LUAD),0.197 (-0.063 to 0.458),0.679 (0.441 to 0.903),0.150 to 0.265,38 / 129
+GSE319666,V4,Lesion-only (AAH/AIS/MIA/LUAD),0.329 (-0.000 to 0.618),0.751 (0.500 to 0.958),0.228 to 0.408,38 / 129
+,,,,,,
+F. Alternative score implementation in GSE319666,,,,,,
+Program,Analysis,Primary-score contrast,Alternative-score contrast (95% CI),Alternative LOPO range,,
+V2,Primary sequence including Normal,0.695,0.703 (0.203 to 1.207),0.591 to 0.841,,
+V3,Primary sequence including Normal,0.531,0.541 (0.260 to 0.861),0.452 to 0.603,,
+V4,Primary sequence including Normal,0.754,0.734 (0.390 to 1.086),0.646 to 0.796,,
+V2,Lesion-only,0.299,0.311 (-0.210 to 0.853),0.167 to 0.463,,
+V3,Lesion-only,0.197,0.208 (-0.049 to 0.466),0.163 to 0.273,,
+V4,Lesion-only,0.329,0.303 (-0.027 to 0.615),0.198 to 0.381,,
+,,,,,,
+Note. The invasive fraction is the proportion of aligned stage-associated magnitude attributable to the invasive-state increment. Lesion-only and leave-one-patient-out analyses are shown separately.,,,,,,

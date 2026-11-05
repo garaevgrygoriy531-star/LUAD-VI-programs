@@ -1,0 +1,29 @@
+﻿condition,program,component,value
+Threshold 25,V2,Total,0.0415851107663201
+Threshold 25,V2,Within-cell-type,0.044847214953466
+Threshold 25,V3,Total,0.04402980488884023
+Threshold 25,V3,Within-cell-type,0.01974706239392121
+Threshold 100,V2,Total,0.09142653781557397
+Threshold 100,V2,Within-cell-type,0.06435562619932478
+Threshold 100,V3,Total,0.11529246596966608
+Threshold 100,V3,Within-cell-type,0.03331463103964194
+Without TMM normalization,V2,Total,0.02409400622115343
+Without TMM normalization,V2,Within-cell-type,0.02254414217997658
+Without TMM normalization,V3,Total,0.02582509741264505
+Without TMM normalization,V3,Within-cell-type,0.021108570224136036
+Paired patients,V2,Total,0.02341643347011968
+Paired patients,V2,Within-cell-type,0.026105497675573686
+Paired patients,V3,Total,0.020125739406322007
+Paired patients,V3,Within-cell-type,0.01630394925477424
+Cell-count weighting,V2,Total,0.13951000103860023
+Cell-count weighting,V2,Within-cell-type,0.09077971015645014
+Cell-count weighting,V3,Total,0.05958214532697442
+Cell-count weighting,V3,Within-cell-type,0.08773141777187066
+Alternative fine-type scores,V2,Total,0.005783809255320849
+Alternative fine-type scores,V2,Within-cell-type,0.005312550404902194
+Alternative fine-type scores,V3,Total,0.007554233830797008
+Alternative fine-type scores,V3,Within-cell-type,0.007130610852738972
+Leave-one-patient-out,V2,Total,0.052829675804915044
+Leave-one-patient-out,V2,Within-cell-type,0.04749099881525931
+Leave-one-patient-out,V3,Total,0.0514191431940893
+Leave-one-patient-out,V3,Within-cell-type,0.04465992586735429

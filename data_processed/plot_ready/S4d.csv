@@ -1,0 +1,17 @@
+lineage,program,component,estimate,ci_low,ci_high,bootstrap_replicates,analysis
+epithelial,V2,Within-cell-type,0.423877730026642,0.244583142341997,0.614023019043755,5000,V1-adjusted primary decomposition
+epithelial,V2,Fine-cell-type composition,0.0393054807135784,0.0212772087347519,0.0611358605364012,5000,V1-adjusted primary decomposition
+epithelial,V3,Within-cell-type,0.328260236021865,0.225897200310677,0.430886504059731,5000,V1-adjusted primary decomposition
+epithelial,V3,Fine-cell-type composition,0.0176823267277416,0.00386834045152929,0.0342036358867071,5000,V1-adjusted primary decomposition
+fibroblast_stromal,V2,Within-cell-type,0.465155591692792,0.316469317010557,0.619480286856833,5000,V1-adjusted primary decomposition
+fibroblast_stromal,V2,Fine-cell-type composition,0.16429850622912,0.0946468799856979,0.251595616657918,5000,V1-adjusted primary decomposition
+fibroblast_stromal,V3,Within-cell-type,0.212799760093967,0.118985571284271,0.280032407250131,5000,V1-adjusted primary decomposition
+fibroblast_stromal,V3,Fine-cell-type composition,0.0549939809508727,0.03030644458965,0.0821534258669209,5000,V1-adjusted primary decomposition
+endothelial,V2,Within-cell-type,0.40882199873036,0.252176868897609,0.565142704415252,5000,V1-adjusted primary decomposition
+endothelial,V2,Fine-cell-type composition,0.105949356830935,0.0522395741111728,0.164630557233427,5000,V1-adjusted primary decomposition
+endothelial,V3,Within-cell-type,0.185582928178027,0.109419809845278,0.256060696649666,5000,V1-adjusted primary decomposition
+endothelial,V3,Fine-cell-type composition,0.0367730343750764,0.0177716898345135,0.0583067614308649,5000,V1-adjusted primary decomposition
+myeloid,V2,Within-cell-type,0.527241354795627,0.321024490894844,0.747449474888729,5000,V1-adjusted primary decomposition
+myeloid,V2,Fine-cell-type composition,0.0420232964533791,0.0177070178722632,0.0727100961762804,5000,V1-adjusted primary decomposition
+myeloid,V3,Within-cell-type,0.180466991779689,0.104884469078542,0.249917911083194,5000,V1-adjusted primary decomposition
+myeloid,V3,Fine-cell-type composition,0.0203624100286631,-0.00376163598605321,0.042431046314676,5000,V1-adjusted primary decomposition

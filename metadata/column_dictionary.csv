@@ -1,0 +1,83 @@
+﻿file,column,definition,unit_or_scale,allowed_values_or_coding,missing_value_definition
+data_processed/pathology/gse308103_stage_scores.tsv,sample_id,Source identifier for the analyzed specimen.,Identifier,GEO sample or source assay ID.,Not applicable.
+data_processed/pathology/gse308103_stage_scores.tsv,patient_id,Dataset-local pseudonymous patient identifier linking repeated specimens.,Identifier,Source-study identifier.,Not applicable.
+data_processed/pathology/gse308103_stage_scores.tsv,stage,Pathology category assigned in the source study.,Category,See source publication and metadata/datasets.csv.,Not applicable.
+data_processed/pathology/gse308103_stage_scores.tsv,V1,"Cell-cycle, genomic-instability, and proliferation reference score.",Cohort-specific program score,Direction in metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/pathology/gse308103_stage_scores.tsv,V2,Remodeling and angiogenesis score.,Cohort-specific program score,Direction in metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/pathology/gse308103_stage_scores.tsv,V3,Hypoxia and metabolic-stress adaptation score.,Cohort-specific program score,Direction in metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/pathology/gse308103_stage_scores.tsv,V4,Adhesion and immune-response score.,Cohort-specific program score,Direction in metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/pathology/gse319666_sample_scores.tsv,sample_id,Source identifier for the analyzed specimen.,Identifier,GEO sample or source assay ID.,Not applicable.
+data_processed/pathology/gse319666_sample_scores.tsv,patient_id,Dataset-local pseudonymous patient identifier linking repeated specimens.,Identifier,Source-study identifier.,Not applicable.
+data_processed/pathology/gse319666_sample_scores.tsv,source_label,Pathology category assigned in the source study.,Category,See source publication and metadata/datasets.csv.,Not applicable.
+data_processed/pathology/gse319666_sample_scores.tsv,V1,"Cell-cycle, genomic-instability, and proliferation reference score.",Cohort-specific program score,Direction in metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/pathology/gse319666_sample_scores.tsv,V2,Remodeling and angiogenesis score.,Cohort-specific program score,Direction in metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/pathology/gse319666_sample_scores.tsv,V3,Hypoxia and metabolic-stress adaptation score.,Cohort-specific program score,Direction in metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/pathology/gse319666_sample_scores.tsv,V4,Adhesion and immune-response score.,Cohort-specific program score,Direction in metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/pathology/gse319666_stage_ia_membership.tsv,in_stageIA_analysis,Whether the specimen meets the Stage IA inclusion criteria.,Boolean,TRUE or FALSE.,Blank cells are not used in the stated analysis.
+data_processed/pathology/gse319666_stage_ia_membership.tsv,group_in_model,Pathology group used in the Stage IA contrast.,Category,"AAH, AIS, MIA, or LUAD.",Blank cells are not used in the stated analysis.
+metadata/sample_manifest.csv,included_in_stage_architecture,Whether the specimen contributes to stage-architecture models.,Boolean,"true, false, or not_applicable.",Blank cells are not used in the stated analysis.
+metadata/sample_manifest.csv,included_in_primary_contrast,Whether the specimen contributes to the primary pathology contrast.,Boolean,"true, false, or not_applicable.",Blank cells are not used in the stated analysis.
+metadata/sample_manifest.csv,included_in_paired_contrast,Whether the specimen contributes to a paired analysis.,Boolean,"true, false, or not_applicable.",Blank cells are not used in the stated analysis.
+metadata/sample_manifest.csv,included_in_stage_IA_analysis,Whether the specimen contributes to the Stage IA contrast.,Boolean,"true, false, or not_applicable.",Blank cells are not used in the stated analysis.
+data_processed/pathology/gse273528_vi_samples.csv,VI,Microscopic vascular-invasion status.,Binary,"1, VI-positive; 0, VI-negative.",Blank cells are not used in the stated analysis.
+data_processed/pathology/gse273528_vi_samples.csv,patient_id,Dataset-local pseudonymous patient identifier.,Identifier,59 lesions represent 58 patients.,Blank cells are not used in the stated analysis.
+data_processed/cross_context/gse282617_sample_scores.csv,pathology_group,Pathology group assigned to the GEO sample.,Category,"AIS, MIA, or invasive adenocarcinoma.",Blank cells are not used in the stated analysis.
+data_processed/cross_context/gse282617_sample_scores.csv,in_primary_contrast,Whether the sample contributes to the stated contrast.,Boolean,TRUE or FALSE.,Blank cells are not used in the stated analysis.
+data_processed/cross_context/gse282617_sample_scores.csv,V1,Cell-cycle and proliferation reference score.,Standardized sample-level score,See metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/cross_context/gse282617_sample_scores.csv,V2,Remodeling and angiogenesis score.,Standardized sample-level score,See metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/cross_context/gse282617_sample_scores.csv,V3,Hypoxia and metabolic-stress adaptation score.,Standardized sample-level score,See metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/cross_context/gse282617_sample_scores.csv,V4,Adhesion and immune-response score.,Standardized sample-level score,See metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/outcome/stageI_primary_cohort_scores.csv,os_time,Overall-survival follow-up time.,Source-defined time unit,See source-cohort documentation.,Blank cells are not used in the stated analysis.
+data_processed/outcome/stageI_primary_cohort_scores.csv,os_event,Overall-survival event indicator.,Binary,"1, event; 0, censored.",Blank cells are not used in the stated analysis.
+data_processed/outcome/stageI_primary_cohort_scores.csv,primary_eligible,Whether the record contributes to the primary stage I analysis.,Boolean,TRUE or FALSE.,Blank cells are not used in the stated analysis.
+data_processed/outcome/stageI_primary_cohort_scores.csv,V2,V2 standardized program score used in the survival model.,Within-cohort standardized score,See metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/outcome/stageI_primary_cohort_scores.csv,V3,V3 standardized program score used in the survival model.,Within-cohort standardized score,See metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/outcome/stageI_primary_cohort_scores.csv,V4,V4 standardized program score used in the survival model.,Within-cohort standardized score,See metadata/program_definitions.csv.,Blank cells are not used in the stated analysis.
+data_processed/cellular/fine_type_scores.tsv,cell_count,Number of nuclei in the sample-by-cell-type unit.,Cells,Integer count; see model eligibility criteria.,Blank cells are not used in the stated analysis.
+data_processed/cellular/fine_type_scores.tsv,pathology,Pathology category for the source specimen.,Category,"AAH, AIS, MIA, or LUAD.",Blank cells are not used in the stated analysis.
+data_processed/cellular/fine_type_scores.tsv,V1,Cell-cycle and proliferation reference score.,Processed program score,Model inputs are sample-by-cell-type units.,Blank cells are not used in the stated analysis.
+data_processed/cellular/fine_type_scores.tsv,V2,Remodeling and angiogenesis score.,Processed program score,Model inputs are sample-by-cell-type units.,Blank cells are not used in the stated analysis.
+data_processed/cellular/fine_type_scores.tsv,V3,Hypoxia and metabolic-stress adaptation score.,Processed program score,Model inputs are sample-by-cell-type units.,Blank cells are not used in the stated analysis.
+data_processed/cellular/fine_type_scores.tsv,V4,Adhesion and immune-response score.,Processed program score,Model inputs are sample-by-cell-type units.,Blank cells are not used in the stated analysis.
+data_processed/cross_context/gse288479_paired_regions.csv,paired_delta,Solid-region score minus ground-glass-region score for the same tumor.,Within-tumor score difference,Positive values indicate a higher score in the solid region.,Blank cells are not used in the stated analysis.
+data_processed/plot_ready/F3a_integrated.csv,estimate,Program-score contrast shown for the specified cohort and model.,Model coefficient,"See dataset, program, and series.",Blank cells are not used in the stated analysis.
+data_processed/plot_ready/F3a_integrated.csv,ci_low,Lower 95% patient-cluster bootstrap confidence limit used in Figure 3A.,Same scale as estimate,Bootstrap interval; see results/pathology/v1_adjusted_stage_models.csv.,Blank cells are not used in the stated analysis.
+data_processed/plot_ready/F3a_integrated.csv,ci_high,Upper 95% patient-cluster bootstrap confidence limit used in Figure 3A.,Same scale as estimate,Bootstrap interval; see results/pathology/v1_adjusted_stage_models.csv.,Blank cells are not used in the stated analysis.
+data_processed/plot_ready/F3a_integrated.csv,n,Number of specimens in the model.,Specimens,As shown for the cohort.,Blank cells are not used in the stated analysis.
+data_processed/plot_ready/F3a_integrated.csv,patients,Number of represented patients.,Patients,As shown for the cohort.,Blank cells are not used in the stated analysis.
+data_processed/plot_ready/F4d.csv,nes,Normalized enrichment score for the measured-protein rank analysis.,Enrichment statistic,Calculated using the tested protein set.,Blank cells are not used in the stated analysis.
+data_processed/plot_ready/F4d.csv,fdr,False-discovery rate for the enrichment analysis.,Adjusted P value,As reported by the enrichment workflow.,Blank cells are not used in the stated analysis.
+data_processed/plot_ready/F1b_summary.csv,estimate,Stage-specific estimate shown in Figure 1B.,Program-score scale,See program and stage.,Blank cells are not used in the stated analysis.
+data_processed/plot_ready/F1b_summary.csv,n,Number of specimens contributing to the estimate.,Specimens,As shown for the stage.,Blank cells are not used in the stated analysis.
+data_processed/cellular/scrna_pseudobulk_scores.csv,score,Program score for one patient-stage-lineage pseudobulk.,Processed program score,See anchor and group.,Blank cells are not used in the stated analysis.
+data_processed/cellular/spatial_sample_program_scores.csv,score,Program score for one spatial specimen and program anchor.,Processed program score,See anchor and group.,Blank cells are not used in the stated analysis.
+results/numeric_reference/MICROSCOPIC_VI.csv,OR,Odds ratio for the modeled vascular-invasion association.,Odds-ratio scale,See model and subset.,Blank cells are not used in the stated analysis.
+results/numeric_reference/MICROSCOPIC_VI.csv,CI_low,Lower confidence limit.,Odds-ratio scale,See model and subset.,Blank cells are not used in the stated analysis.
+results/numeric_reference/MICROSCOPIC_VI.csv,CI_high,Upper confidence limit.,Odds-ratio scale,See model and subset.,Blank cells are not used in the stated analysis.
+results/numeric_reference/STAGE_I_OS_META.csv,hr,Pooled hazard ratio across the listed cohorts.,Hazard-ratio scale,See score and cohort columns.,Blank cells are not used in the stated analysis.
+results/numeric_reference/STAGE_I_OS_META.csv,ci_low,Lower confidence limit.,Hazard-ratio scale,See score and cohort columns.,Blank cells are not used in the stated analysis.
+results/numeric_reference/STAGE_I_OS_META.csv,ci_high,Upper confidence limit.,Hazard-ratio scale,See score and cohort columns.,Blank cells are not used in the stated analysis.
+data_processed/cross_context/gse102511_sample_scores.tsv,source_label,Original sample annotation from GEO-derived sample metadata; retained verbatim.,Source label,"Examples: 001-AAH, 001-LUAD, 001-NL.",Not applicable.
+results/pathology/v1_adjusted_stage_models.csv,estimate,Fitted invasive-stage fixed-effect estimate.,Model coefficient,E coefficient from the stated model.,Not applicable.
+results/pathology/v1_adjusted_stage_models.csv,bootstrap_ci_low,Lower percentile confidence limit from the patient-cluster bootstrap.,Model coefficient,2.5th bootstrap percentile.,Not applicable.
+results/pathology/v1_adjusted_stage_models.csv,bootstrap_ci_high,Upper percentile confidence limit from the patient-cluster bootstrap.,Model coefficient,97.5th bootstrap percentile.,Not applicable.
+results/pathology/v1_adjusted_stage_models.csv,model_formula,Model formula used for the contrast.,Model formula,E with or without V1 and a patient random intercept.,Not applicable.
+results/pathology/v1_adjusted_stage_models.csv,n_specimens,Number of specimens in the complete-case model.,Specimens,Count.,Not applicable.
+results/pathology/v1_adjusted_stage_models.csv,n_patients,Number of represented patients in the model.,Patients,Count.,Not applicable.
+results/pathology/v1_adjusted_stage_models.csv,bootstrap_replicates,Requested number of patient-cluster resamples.,Resamples,"1,000.",Not applicable.
+results/pathology/v1_adjusted_stage_models.csv,bootstrap_success,Number of finite bootstrap estimates used for the interval.,Resamples,0 to bootstrap_replicates.,Not applicable.
+results/pathology/v1_adjusted_stage_models.csv,seed,Random-number seed for the resampling sequence.,Integer,20261016.,Not applicable.
+metadata/provenance_manifest.csv,related_script,Public analysis or rendering script directly associated with the file; this field does not necessarily denote the original upstream generator.,Repository-relative path or explanatory value,See metadata/provenance_manifest.csv.,Not applicable.
+data_processed/plot_ready/F3c.csv,dataset,Source cohort identifier.,Cohort,As supplied in source table.,Blank fields denote not applicable values.
+data_processed/plot_ready/F3c.csv,program,Externally defined program label.,Program,As supplied in source table.,Blank fields denote not applicable values.
+data_processed/plot_ready/F3c.csv,attenuation_percent,Percent reduction in absolute coefficient after V1 adjustment.,Percent,As supplied in source table.,Blank fields denote not applicable values.
+data_processed/plot_ready/F3c.csv,unadjusted_coefficient,Unadjusted invasive-state contrast coefficient.,Standardized coefficient,As supplied in source table.,Blank fields denote not applicable values.
+data_processed/plot_ready/F3c.csv,adjusted_coefficient,V1-adjusted invasive-state contrast coefficient.,Standardized coefficient,As supplied in source table.,Blank fields denote not applicable values.
+data_processed/plot_ready/S4d.csv,lineage,Broad cell lineage.,Category,As supplied in the result table.,Blank fields denote not applicable values.
+data_processed/plot_ready/S4d.csv,program,Externally defined program label.,Category,As supplied in the result table.,Blank fields denote not applicable values.
+data_processed/plot_ready/S4d.csv,component,Displayed decomposition component.,Category,Within-cell-type; Fine-cell-type composition,Blank fields denote not applicable values.
+data_processed/plot_ready/S4d.csv,estimate,V1-adjusted component estimate.,Standardized coefficient,As supplied in the result table.,Blank fields denote not applicable values.
+data_processed/plot_ready/S4d.csv,ci_low,Lower endpoint of the 95% confidence interval.,Standardized coefficient,As supplied in the result table.,Blank fields denote not applicable values.
+data_processed/plot_ready/S4d.csv,ci_high,Upper endpoint of the 95% confidence interval.,Standardized coefficient,As supplied in the result table.,Blank fields denote not applicable values.
+data_processed/plot_ready/S4d.csv,bootstrap_replicates,Number of patient-cluster bootstrap replicates.,Count,As supplied in the result table.,Blank fields denote not applicable values.
+data_processed/plot_ready/S4d.csv,analysis,Result-table analysis label.,Category,As supplied in the result table.,Blank fields denote not applicable values.

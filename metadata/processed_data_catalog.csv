@@ -1,0 +1,11 @@
+﻿directory,contents,unit_of_analysis,scale_and_interpretation
+data_processed/pathology,Specimen-level program scores and vascular-invasion annotations for the pathology cohorts.,Specimen; repeated specimens are linked by patient_id.,V1–V4 and ORACLE scores are analyzed within cohort; see the source table and model script.
+data_processed/cross_context,"Sample-level scores and cohort contrasts for expression, imaging, and regional sampling.","Sample or paired patient, as specified for each cohort in metadata/datasets.csv.",Scores and reported effects retain the cohort-specific scale and model definitions.
+data_processed/outcome,Standardized program scores and eligibility fields for stage I survival analyses.,Patient.,Survival times and events follow the source-cohort definitions.
+data_processed/cellular,"Single-cell, fine-cell-type, and spatial score tables, cell counts, and sample annotations.","Cell, specimen, patient, lineage, or spatial sample, as indicated by each table.",Program scores and eligibility criteria are described in docs/CELLULAR_DATA.md.
+data_processed/proteomics,Study-derived enrichment and sensitivity summaries for PXD046637.,Measured protein or pathway.,Lesion or pathway. Per-gene ranks derived from the article supplement are not included.
+data_processed/plot_ready,Panel-level values and intervals used by the figure renderer.,Varies by panel; see metadata/figure_table_map.csv.,The renderer uses the stored values and does not refit upstream models.
+data_processed/program_scores,Published program membership lists; study-derived ORACLE scores are retained in cohort score tables.,Gene.,Gene membership definitions are attributed to their source publications; ORACLE coefficients are not included.
+data_processed/supplementary_tables,"Main Table 1 CSV, Supplementary Tables S1–S9 workbook, and exported sheet CSVs.","Study cohort, sample, model, or summary, as specified within each table.",The CSV sheets are exported from the included workbook by the table-export script.
+data_processed/figure_assets,Static vector artwork used to reproduce a figure panel.,Figure panel.,Native SVG.
+results/cellular,"Cellular model estimates, decomposition components, and sensitivity summaries.",Samples nested within patients.,Model estimates and confidence intervals.

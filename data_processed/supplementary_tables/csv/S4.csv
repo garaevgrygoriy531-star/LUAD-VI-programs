@@ -1,0 +1,24 @@
+﻿Supplementary Table S4. Independent and external pathology replication,,,,,,
+,,,,,,
+A. Principal independent replication in GSE319666,,,,,,
+Program,"Primary invasive-LUAD coefficient, earlier states as reference (95% CI)","Patients, n","Specimens, n",Paired difference (95% CI); n=21,Stage-IA coefficient (95% CI); 33 patients / 92 specimens,Architecture ΔAICc gradual–step / step preference
+V2,0.518 (0.329 to 0.706),38,129,0.431 (0.087 to 0.758),0.430 (0.099 to 0.762),9.324 / 58.2%
+V3,0.524 (0.402 to 0.645),38,129,0.481 (0.281 to 0.687),0.553 (0.372 to 0.734),17.414 / 86.8%
+V4,-0.628 (-0.766 to -0.489),38,129,-0.629 (-0.886 to -0.384),-0.467 (-0.677 to -0.257),23.177 / 60.9%
+,,,,,,
+B. External pathology contrasts,,,,,,
+Dataset,Biological contrast,V2,V3,V4,Metric,Analytical sample
+GSE166720,Invasive AC/MP/PAP/SOL minus AIS/MIA,1.186 (0.655 to 1.718),1.415 (0.951 to 1.880),-1.462 (-1.913 to -1.010),Standardized-score coefficient; HC3 CI,39 patients
+GSE282617,IAC minus AIS/MIA,0.326 (-0.194 to 0.847),0.595 (0.048 to 1.142),-0.917 (-1.415 to -0.419),Standardized-score coefficient; HC3 CI,60 specimens; sample-level
+GSE102511,Invasive LUAD minus AAH,1.116 (0.566 to 1.666),0.978 (0.434 to 1.523),-0.973 (-1.481 to -0.464),Paired standardized-score difference,16 paired patients
+,,,,,,
+C. Stage-resolved external pathology contrasts,,,,,,
+Dataset,Contrast,V2,V3,V4,Metric,Analytical sample
+GSE166720,MIA minus AIS,0.108 (-0.442 to 0.657),-0.214 (-0.620 to 0.192),0.261 (-0.276 to 0.798),HC3 CI,13 AIS; 6 MIA; 20 invasive patients
+GSE166720,Invasive minus MIA,1.113 (0.474 to 1.751),1.562 (1.107 to 2.017),-1.640 (-2.119 to -1.161),HC3 CI,13 AIS; 6 MIA; 20 invasive patients
+GSE166720,Invasive minus AIS,1.220 (0.644 to 1.797),1.348 (0.821 to 1.874),-1.379 (-1.916 to -0.842),HC3 CI,13 AIS; 6 MIA; 20 invasive patients
+GSE282617,MIA minus AIS,-0.543 (-1.229 to 0.143),-0.075 (-0.671 to 0.522),-0.660 (-1.228 to -0.092),HC3 CI,20 AIS; 17 MIA; 23 IAC specimens
+GSE282617,IAC minus MIA,0.620 (0.054 to 1.187),0.635 (0.068 to 1.202),-0.560 (-1.160 to 0.039),HC3 CI,20 AIS; 17 MIA; 23 IAC specimens
+GSE282617,IAC minus AIS,0.077 (-0.593 to 0.746),0.561 (-0.118 to 1.240),-1.221 (-1.763 to -0.678),HC3 CI,20 AIS; 17 MIA; 23 IAC specimens
+,,,,,,
+Note. GSE319666 is the principal independent replication cohort. GSE102511 uses paired AAH–invasive-LUAD samples. GSE282617 is analyzed at specimen level because public patient identifiers were unavailable.,,,,,,

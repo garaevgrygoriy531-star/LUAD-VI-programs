@@ -1,0 +1,78 @@
+panel_id,display_id,source_id,context
+F2a,Patient 1,HTA2_20457,F2a_membership.csv
+F2a,Patient 2,HTA2_21522,F2a_membership.csv
+F2a,Patient 3,HTA2_23998,F2a_membership.csv
+F2a,Patient 4,HTA2_24568,F2a_membership.csv
+F2a,Patient 5,HTA2_24648,F2a_membership.csv
+F2a,Patient 6,HTA2_24958,F2a_membership.csv
+F2a,Patient 7,HTA2_26866,F2a_membership.csv
+F2a,Patient 8,HTA2_27097,F2a_membership.csv
+F2a,Patient 9,HTA2_27117,F2a_membership.csv
+F2a,Patient 10,HTA2_90008,F2a_membership.csv
+F2a,Patient 11,HTA2_90009,F2a_membership.csv
+F2a,Patient 12,HTA2_90010,F2a_membership.csv
+F2a,Patient 13,HTA2_90011,F2a_membership.csv
+F2a,Patient 14,HTA2_90012,F2a_membership.csv
+F2a,Patient 15,HTA2_90013,F2a_membership.csv
+F2a,Patient 16,HTA2_90014,F2a_membership.csv
+F2a,Patient 17,HTA3_80002,F2a_membership.csv
+F2a,Patient 18,HTA3_80005,F2a_membership.csv
+F2a,Patient 19,HTA3_80008,F2a_membership.csv
+F2a,Patient 20,HTA3_80009,F2a_membership.csv
+F2a,Patient 21,HTA3_80010,F2a_membership.csv
+F2a,Patient 22,HTA3_80012,F2a_membership.csv
+F2a,Patient 23,HTA3_80013,F2a_membership.csv
+F2a,Patient 24,HTA3_80014,F2a_membership.csv
+F2a,Patient 25,HTA3_80015,F2a_membership.csv
+F2a,Patient 26,HTA3_80016,F2a_membership.csv
+F2a,Patient 27,HTA3_80017,F2a_membership.csv
+F2a,Patient 28,HTA3_80018,F2a_membership.csv
+F2a,Patient 29,HTA3_80019,F2a_membership.csv
+F2a,Patient 30,HTA3_80020,F2a_membership.csv
+F2a,Patient 31,HTA3_80021,F2a_membership.csv
+F2a,Patient 32,HTA3_80022,F2a_membership.csv
+F2a,Patient 33,HTA3_80023,F2a_membership.csv
+F2a,Patient 34,HTA3_80024,F2a_membership.csv
+F2a,Patient 35,HTA3_80025,F2a_membership.csv
+F2a,Patient 36,HTA3_80026,F2a_membership.csv
+F2a,Patient 37,HTA3_80027,F2a_membership.csv
+F2a,Patient 38,HTA3_80028,F2a_membership.csv
+F2a,Patient 39,HTA3_80029,F2a_membership.csv
+F2a,Patient 40,HTA3_80030,F2a_membership.csv
+F2d,Patient 1,HTA2_21522,F2d_paired.csv
+F2d,Patient 2,HTA2_26866,F2d_paired.csv
+F2d,Patient 3,HTA2_27117,F2d_paired.csv
+F2d,Patient 4,HTA3_80002,F2d_paired.csv
+F2d,Patient 5,HTA3_80005,F2d_paired.csv
+F2d,Patient 6,HTA3_80008,F2d_paired.csv
+F2d,Patient 7,HTA3_80009,F2d_paired.csv
+F2d,Patient 8,HTA3_80012,F2d_paired.csv
+F2d,Patient 9,HTA3_80013,F2d_paired.csv
+F2d,Patient 10,HTA3_80014,F2d_paired.csv
+F2d,Patient 11,HTA3_80015,F2d_paired.csv
+F2d,Patient 12,HTA3_80016,F2d_paired.csv
+F2d,Patient 13,HTA3_80017,F2d_paired.csv
+F2d,Patient 14,HTA3_80018,F2d_paired.csv
+F2d,Patient 15,HTA3_80019,F2d_paired.csv
+F2d,Patient 16,HTA3_80020,F2d_paired.csv
+F2d,Patient 17,HTA3_80023,F2d_paired.csv
+F2d,Patient 18,HTA3_80025,F2d_paired.csv
+F2d,Patient 19,HTA3_80026,F2d_paired.csv
+F2d,Patient 20,HTA3_80027,F2d_paired.csv
+F2d,Patient 21,HTA3_80028,F2d_paired.csv
+F4c,Tumor 1,SMC06,F4c.csv
+F4c,Tumor 2,SMC08,F4c.csv
+F4c,Tumor 3,SMC11,F4c.csv
+F4c,Tumor 4,SMC13,F4c.csv
+F4c,Tumor 5,SMC18,F4c.csv
+F4c,Tumor 6,SMC19,F4c.csv
+F4c,Tumor 7,SMC20,F4c.csv
+S5b,Patient 1,TD1,independent patient omission
+S5b,Patient 2,TD2,independent patient omission
+S5b,Patient 3,TD3,independent patient omission
+S5b,Patient 4,TD4,independent patient omission
+S5b,Patient 5,TD5,independent patient omission
+S5b,Patient 6,TD6,independent patient omission
+S5b,Patient 7,TD7,independent patient omission
+S5b,Patient 8,TD8,independent patient omission
+S5b,Patient 9,TD9,independent patient omission

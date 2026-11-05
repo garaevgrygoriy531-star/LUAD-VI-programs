@@ -1,0 +1,17 @@
+﻿Supplementary Table S5. Associations after V1 adjustment and with microscopic vascular invasion,,,,,,
+,,,,,,
+A. Invasive LUAD versus earlier histologic states before and after V1 adjustment,,,,,,
+Dataset,Program,Unadjusted coefficient (95% CI),V1-adjusted coefficient (95% CI),"Patients, n","Specimens, n","Reduction in absolute coefficient, %"
+GSE308103,V2,0.861 (0.565 to 1.202),0.430 (0.111 to 0.757),23,75,50.1
+GSE308103,V3,0.840 (0.623 to 1.055),0.402 (0.203 to 0.579),23,75,52.1
+GSE308103,V4,-0.673 (-0.919 to -0.441),-0.225 (-0.425 to -0.060),23,75,66.6
+GSE319666,V2,0.411 (0.187 to 0.666),0.227 (0.002 to 0.430),40,177,44.7
+GSE319666,V3,0.445 (0.282 to 0.614),0.119 (0.011 to 0.246),40,177,73.3
+GSE319666,V4,-0.526 (-0.702 to -0.341),-0.178 (-0.311 to -0.067),40,177,66.2
+,,,,,,
+B. Microscopic vascular-invasion associations,,,,,,
+Model term,Odds ratio per 1-SD increase,95% CI,Analytical sample,,,
+V2 adjusted for V1,3.49,1.54 to 10.36,59 lesions; 58 patients; 17 VI-positive lesions,,,
+V3 adjusted for V1,9.72,2.34 to 63.12,59 lesions; 58 patients; 17 VI-positive lesions,,,
+,,,,,,
+Note. V1 is the proliferation-related reference program. Reductions in absolute coefficient magnitude were calculated from full-precision model estimates and are shown in Figure 3C. Microscopic VI associations are odds ratios from separate V1-adjusted Firth logistic models.,,,,,,

@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 2048 2048" version="1.1">
+  <title>Figure 1A — Histologic progression and qualitative program states</title>
+  <desc>Native editable vector reconstruction. Normal, AAH, AIS, MIA and LUAD morphology; four qualitative program rows. Every cell membrane, nucleus, tissue contour, label and program segment is a separate vector object. No raster assets, external resources or scripts. Program intensity is schematic, not a quantitative scale.</desc>
+  <g id="background">
+    <title>White canvas</title>
+    <rect id="canvas" x="0" y="0" width="2048" height="2048" fill="#FFFFFF"/>
+  </g>
+  <g id="header">
+    <title>Histologic progression</title>
+    <line id="progression-left" x1="184" y1="192" x2="782" y2="192" stroke="#8C8280" stroke-width="2.4"/>
+    <line id="progression-right" x1="1291" y1="192" x2="1965" y2="192" stroke="#8C8280" stroke-width="3.1"/>
+    <path id="progression-arrowhead" d="M 1991 192 L 1950 174 L 1959 192 L 1950 210 Z" fill="#8C8280" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="progression-label" x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="400" text-anchor="middle" fill="#5E5755" transform="translate(1035 207) scale(0.88 1)">Histologic progression</text>
+  </g>
+  <g id="stage-separators">
+    <title>Stage boundaries</title>
+    <line id="stage-boundary-1" x1="493" y1="289" x2="493" y2="1960" stroke="#CCC9C5" stroke-width="1"/>
+    <line id="stage-boundary-2" x1="874" y1="289" x2="874" y2="1960" stroke="#CCC9C5" stroke-width="1"/>
+    <line id="stage-boundary-3" x1="1255" y1="289" x2="1255" y2="1960" stroke="#CCC9C5" stroke-width="1"/>
+    <line id="stage-boundary-4" x1="1636" y1="289" x2="1636" y2="1960" stroke="#CCC9C5" stroke-width="1"/>
+  </g>
+  <g id="stage-normal">
+    <title>Normal — open intact alveolar architecture</title>
+    <text id="label-normal" x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="400" text-anchor="middle" fill="#484241" transform="translate(302.5 339) scale(0.87 1)">Normal</text>
+    <g id="normal-alveolar-wall">
+      <title>Thin alveolar septa</title>
+      <path id="normal-septum-top-left" d="M 274 424 C 225 443 194 474 179 520 C 170 548 140 542 116 567 C 95 590 86 630 85 668" fill="none" stroke="#EBD3C0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="normal-septum-top-right" d="M 421 515 C 436 555 439 602 443 644 C 448 675 473 704 476 755" fill="none" stroke="#EBD3C0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="normal-septum-central" d="M 169 549 C 200 548 204 583 222 610 C 237 632 262 650 288 663 C 318 681 351 664 382 651 C 406 641 428 648 444 663" fill="none" stroke="#EBD3C0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="normal-septum-left-lower" d="M 132 816 C 170 808 205 828 229 843 C 247 858 242 885 251 910" fill="none" stroke="#EBD3C0" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="normal-septum-branch" d="M 229 843 C 259 815 278 771 287 733 C 296 704 299 685 286 663" fill="none" stroke="#EBD3C0" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="normal-septum-lower-arc" d="M 251 910 C 279 953 326 960 371 944 C 424 929 463 887 476 829" fill="none" stroke="#EBD3C0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="normal-wall-contour-1" d="M 277 422 C 224 446 199 474 183 518 C 176 542 179 550 195 561" fill="none" stroke="#BC9883" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="normal-wall-contour-2" d="M 85 667 C 83 632 96 595 114 574" fill="none" stroke="#BC9883" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="normal-wall-contour-3" d="M 221 612 C 239 635 267 649 289 658" fill="none" stroke="#BC9883" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="normal-wall-contour-4" d="M 136 819 C 173 818 203 834 222 850" fill="none" stroke="#BC9883" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="normal-wall-contour-5" d="M 239 881 C 238 866 241 847 250 832" fill="none" stroke="#BC9883" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="normal-epithelium">
+      <title>Sparse attenuated epithelium</title>
+      <g id="normal-epithelial-01">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="normal-epithelial-01-membrane" d="M 111 570 C 136 547 157 537 181 547 C 203 554 211 585 221 618 C 202 597 204 575 183 569 C 159 568 142 549 111 570 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-epithelial-01-nucleus" cx="171" cy="557" rx="7.3" ry="5.4" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(24 171 557)"/>
+      </g>
+      <g id="normal-epithelial-02">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="normal-epithelial-02-membrane" d="M 365 436 C 374 437 374 456 398 476 C 417 491 426 515 430 544 C 417 516 400 521 383 505 C 366 491 371 463 365 444 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-epithelial-02-nucleus" cx="394" cy="490" rx="5" ry="8" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(-36 394 490)"/>
+      </g>
+      <g id="normal-epithelial-03">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="normal-epithelial-03-membrane" d="M 260 645 C 280 658 301 662 324 656 C 344 651 359 660 380 650 C 363 663 345 675 325 676 C 302 676 282 670 260 645 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-epithelial-03-nucleus" cx="330" cy="663" rx="7.3" ry="4.8" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(-16 330 663)"/>
+      </g>
+      <g id="normal-epithelial-04">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="normal-epithelial-04-membrane" d="M 257 644 C 278 655 288 669 294 689 C 299 706 292 724 284 738 C 284 716 271 706 267 691 C 263 675 264 658 257 644 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-epithelial-04-nucleus" cx="278" cy="680" rx="4.7" ry="8" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(-10 278 680)"/>
+      </g>
+      <g id="normal-epithelial-05">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="normal-epithelial-05-membrane" d="M 422 650 C 448 654 457 674 466 700 C 473 724 478 749 480 774 C 470 744 454 730 444 712 C 434 695 441 669 422 650 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-epithelial-05-nucleus" cx="451" cy="699" rx="4.8" ry="8.6" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(-16 451 699)"/>
+      </g>
+      <g id="normal-epithelial-06">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="normal-epithelial-06-membrane" d="M 85 668 C 91 706 91 735 113 748 C 134 761 131 791 169 820 C 143 813 117 794 104 775 C 84 748 81 709 85 668 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-epithelial-06-nucleus" cx="119" cy="769" rx="5.4" ry="8.1" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(-32 119 769)"/>
+      </g>
+      <g id="normal-epithelial-07">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="normal-epithelial-07-membrane" d="M 476 827 C 473 856 458 882 441 901 C 430 911 421 918 412 922 C 425 900 425 881 438 862 C 449 847 468 845 476 827 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-epithelial-07-nucleus" cx="448" cy="872" rx="4.4" ry="9.1" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(25 448 872)"/>
+      </g>
+      <g id="normal-epithelial-08">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="normal-epithelial-08-membrane" d="M 238 885 C 253 907 268 905 280 921 C 296 943 314 950 336 951 C 310 958 282 951 266 938 C 249 924 241 905 238 885 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-epithelial-08-nucleus" cx="268" cy="925" rx="4.7" ry="8.5" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(-42 268 925)"/>
+      </g>
+      <ellipse id="normal-free-nucleus-01" cx="121" cy="837" rx="8.4" ry="9" fill="#A2ADBE" stroke="#485260" stroke-width="1" transform="rotate(-22 121 837)"/>
+      <ellipse id="normal-free-nucleus-02" cx="417" cy="602" rx="3.8" ry="7" fill="#A2ADBE" stroke="#485260" stroke-width="1" transform="rotate(3 417 602)"/>
+    </g>
+    <g id="normal-stroma">
+      <title>Sparse stromal spindle cells</title>
+      <g id="normal-fibroblast-01">
+        <title>Stromal spindle cell</title>
+        <path id="normal-fibroblast-01-membrane" d="M 110 568 C 130 535 142 533 145 510 C 147 495 179 480 201 450 C 181 484 170 502 167 522 C 150 536 129 547 110 568 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-fibroblast-01-nucleus" cx="157" cy="507" rx="4.6" ry="7.8" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(22 157 507)"/>
+      </g>
+      <g id="normal-fibroblast-02">
+        <title>Stromal spindle cell</title>
+        <path id="normal-fibroblast-02-membrane" d="M 443 542 C 453 563 457 567 462 582 C 471 600 457 619 457 646 C 448 624 454 606 449 592 C 446 574 448 559 443 542 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-fibroblast-02-nucleus" cx="458" cy="590" rx="3.7" ry="8.4" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(-2 458 590)"/>
+      </g>
+      <g id="normal-fibroblast-03">
+        <title>Stromal spindle cell</title>
+        <path id="normal-fibroblast-03-membrane" d="M 133 818 C 161 833 192 831 210 850 C 228 869 226 900 242 930 C 220 905 205 882 189 869 C 173 854 158 836 133 818 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-fibroblast-03-nucleus" cx="201" cy="859" rx="4.5" ry="9.4" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(-43 201 859)"/>
+      </g>
+      <g id="normal-fibroblast-04">
+        <title>Stromal spindle cell</title>
+        <path id="normal-fibroblast-04-membrane" d="M 246 838 C 262 801 267 774 294 744 C 287 778 285 798 266 815 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-fibroblast-04-nucleus" cx="279" cy="783" rx="3.6" ry="8.2" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(26 279 783)"/>
+      </g>
+      <g id="normal-fibroblast-05">
+        <title>Stromal spindle cell</title>
+        <path id="normal-fibroblast-05-membrane" d="M 293 965 C 323 959 355 955 390 948 C 376 958 360 964 350 969 C 333 979 313 970 293 965 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="normal-fibroblast-05-nucleus" cx="335" cy="965" rx="6.8" ry="3.5" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(-10 335 965)"/>
+      </g>
+    </g>
+  </g>
+  <g id="stage-aah">
+    <title>AAH — sparse discontinuous atypical proliferation</title>
+    <text id="label-aah" x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="400" text-anchor="middle" fill="#484241" transform="translate(683.5 339) scale(0.87 1)">AAH</text>
+    <g id="aah-alveolar-wall">
+      <title>Preserved open alveoli</title>
+      <path id="aah-septum-upper" d="M 666 428 C 627 436 599 450 582 482 C 568 507 568 530 584 543 C 617 566 617 595 631 625" fill="none" stroke="#EBD3C0" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="aah-septum-loop" d="M 503 616 C 499 662 495 698 507 736 C 522 789 558 829 601 834 C 643 838 667 807 682 771 C 695 745 705 727 687 703" fill="none" stroke="#EBD3C0" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="aah-septum-right" d="M 691 710 C 710 736 735 750 764 741 C 795 729 816 722 837 742 C 860 765 867 791 868 823" fill="none" stroke="#EBD3C0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="aah-septum-fragment" d="M 772 482 C 785 516 776 537 812 543 C 832 546 841 553 841 576" fill="none" stroke="#EBD3C0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="aah-contour-upper" d="M 591 469 C 607 446 636 433 665 427 C 688 421 690 434 710 443 C 717 448 723 449 728 447" fill="none" stroke="#BC9883" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="aah-contour-right-upper" d="M 768 479 C 783 497 777 528 797 538 C 814 547 835 540 841 566" fill="none" stroke="#BC9883" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="aah-contour-low" d="M 520 771 C 542 810 571 827 603 831 C 634 834 660 815 674 791" fill="none" stroke="#BC9883" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="aah-contour-branch" d="M 690 704 C 707 726 728 739 752 740 C 788 735 807 724 831 735 C 858 749 866 787 868 823" fill="none" stroke="#BC9883" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="aah-normal-epithelium">
+      <title>Residual normal epithelium</title>
+      <g id="aah-normal-01">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="aah-normal-01-membrane" d="M 503 635 C 508 596 520 566 544 545 C 562 530 574 539 587 548 C 562 538 559 570 541 583 C 520 592 511 608 503 635 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="aah-normal-01-nucleus" cx="540" cy="566" rx="4.9" ry="8.6" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(37 540 566)"/>
+      </g>
+      <g id="aah-normal-02">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="aah-normal-02-membrane" d="M 502 692 C 506 730 520 748 538 760 C 551 771 547 798 588 830 C 558 826 541 811 525 793 C 506 768 498 723 502 692 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="aah-normal-02-nucleus" cx="535" cy="778" rx="4.8" ry="9.4" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(-31 535 778)"/>
+      </g>
+      <g id="aah-normal-03">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="aah-normal-03-membrane" d="M 690 721 C 706 736 701 752 695 769 C 681 789 672 810 643 826 C 662 801 661 786 668 770 C 681 752 695 750 690 721 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="aah-normal-03-nucleus" cx="683" cy="775" rx="4.3" ry="9.2" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(26 683 775)"/>
+      </g>
+      <ellipse id="aah-free-nucleus-01" cx="623" cy="472" rx="6.2" ry="7.7" fill="#A2ADBE" stroke="#485260" stroke-width="1" transform="rotate(18 623 472)"/>
+      <ellipse id="aah-free-nucleus-02" cx="803" cy="757" rx="7.5" ry="7.6" fill="#A2ADBE" stroke="#485260" stroke-width="1"/>
+    </g>
+    <g id="aah-neoplastic-epithelium">
+      <title>Focal discontinuous atypical epithelial cells</title>
+      <g id="aah-atypical-01">
+        <title>Epithelial cell</title>
+        <g transform="translate(642 626) rotate(-25)">
+          <path id="aah-atypical-01-membrane" d="M -16.2 -7.59 C -16.56 -17.94 -6.12 -22.65 3.96 -22.54 C 14.94 -22.54 18.72 -9.66 17.46 3.91 C 17.28 17.48 6.48 26.22 -3.24 22.31 C -14.4 20.93 -18.18 6.67 -16.2 -7.59 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="aah-atypical-01-nucleus" cx="-1.8" cy="-1.49" rx="5.22" ry="6.9" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -1.8 -1.49)"/>
+        </g>
+      </g>
+      <g id="aah-atypical-02">
+        <title>Epithelial cell</title>
+        <g transform="translate(679 692) rotate(35)">
+          <path id="aah-atypical-02-membrane" d="M -22.5 -6.6 C -24.12 -15.6 -8.5 -20.2 5.5 -19.6 C 20.75 -19.6 26 -8.4 24.25 3.4 C 24 15.2 9 21.9 -4.5 19.4 C -20 18.2 -25.25 5.8 -22.5 -6.6 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="aah-atypical-02-nucleus" cx="0.5" cy="0.1" rx="7.7" ry="6.24" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.5 0.1)"/>
+        </g>
+      </g>
+      <g id="aah-atypical-03">
+        <title>Epithelial cell</title>
+        <g transform="translate(731 723) rotate(-24)">
+          <path id="aah-atypical-03-membrane" d="M -19.8 -6.93 C -22.22 -16.38 -7.48 -21.74 4.84 -20.58 C 18.26 -20.58 22.88 -8.82 21.34 3.57 C 21.12 15.96 7.92 22.05 -3.96 20.37 C -17.6 19.11 -22.22 6.09 -19.8 -6.93 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="aah-atypical-03-nucleus" cx="3.08" cy="1.58" rx="7.17" ry="6.8" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 3.08 1.58)"/>
+        </g>
+      </g>
+      <g id="aah-atypical-04">
+        <title>Epithelial cell</title>
+        <g transform="translate(757 719) rotate(-18)">
+          <path id="aah-atypical-04-membrane" d="M -13.5 -6.93 C -15.82 -16.38 -5.1 -22.26 3.3 -20.58 C 12.45 -20.58 15.6 -8.82 14.55 3.57 C 14.4 15.96 5.4 21.11 -2.7 20.37 C -12 19.11 -15.15 6.09 -13.5 -6.93 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="aah-atypical-04-nucleus" cx="-1.5" cy="3.05" rx="4.35" ry="7.06" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -1.5 3.05)"/>
+        </g>
+      </g>
+      <g id="aah-atypical-05">
+        <title>Epithelial cell</title>
+        <g transform="translate(798 706) rotate(-18)">
+          <path id="aah-atypical-05-membrane" d="M -21.6 -6.6 C -26.4 -15.6 -8.16 -21.7 5.28 -19.6 C 19.92 -19.6 24.96 -8.4 23.28 3.4 C 23.04 15.2 8.64 19.2 -4.32 19.4 C -19.2 18.2 -24.24 5.8 -21.6 -6.6 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="aah-atypical-05-nucleus" cx="0.48" cy="-1.3" rx="7.39" ry="6" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.48 -1.3)"/>
+        </g>
+      </g>
+      <path id="aah-small-profile-01" d="M 825 651 C 822 645 826 637 832 635 C 834 641 829 649 825 651 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="aah-small-profile-02" d="M 836 634 C 833 630 835 625 839 622 C 842 625 840 632 836 634 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="aah-stroma">
+      <title>Scattered stromal spindle cells</title>
+      <g id="aah-fibroblast-01">
+        <title>Stromal spindle cell</title>
+        <path id="aah-fibroblast-01-membrane" d="M 537 510 C 550 479 540 467 555 455 C 568 446 579 439 590 429 C 577 447 574 455 571 470 C 567 485 550 488 537 510 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="aah-fibroblast-01-nucleus" cx="557" cy="468" rx="4.6" ry="7.5" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(19 557 468)"/>
+      </g>
+      <g id="aah-fibroblast-02">
+        <title>Stromal spindle cell</title>
+        <path id="aah-fibroblast-02-membrane" d="M 561 846 C 590 868 625 870 667 854 C 649 867 631 869 625 881 C 612 905 589 882 580 870 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="aah-fibroblast-02-nucleus" cx="611" cy="875" rx="8.8" ry="6.9" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(9 611 875)"/>
+      </g>
+      <g id="aah-fibroblast-03">
+        <title>Stromal spindle cell</title>
+        <path id="aah-fibroblast-03-membrane" d="M 787 726 C 809 718 813 698 828 687 C 842 678 851 675 866 662 C 852 682 841 694 838 709 C 831 724 818 725 799 728 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="aah-fibroblast-03-nucleus" cx="831" cy="705" rx="4.7" ry="8.8" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(21 831 705)"/>
+      </g>
+      <g id="aah-fibroblast-04">
+        <title>Stromal spindle cell</title>
+        <path id="aah-fibroblast-04-membrane" d="M 751 943 C 771 922 778 934 791 935 C 833 935 850 894 867 853 C 862 886 867 900 852 914 C 834 932 810 942 789 937 C 770 933 763 932 751 943 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="aah-fibroblast-04-nucleus" cx="847" cy="903" rx="3.5" ry="6.9" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(26 847 903)"/>
+      </g>
+    </g>
+  </g>
+  <g id="stage-ais">
+    <title>AIS — continuous lepidic lining without stromal invasion</title>
+    <text id="label-ais" x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="400" text-anchor="middle" fill="#484241" transform="translate(1064.5 339) scale(0.87 1)">AIS</text>
+    <g id="ais-alveolar-wall">
+      <title>Preserved alveolar septa</title>
+      <path id="ais-septum-upper" d="M 918 532 C 940 509 949 469 989 443 C 1012 426 1036 420 1059 431 C 1091 444 1117 452 1140 462" fill="none" stroke="#EBD3C0" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="ais-septum-central" d="M 941 565 C 960 616 974 656 1014 695 C 1036 718 1065 724 1087 742 C 1099 759 1078 781 1068 811 C 1059 838 1045 865 1036 884" fill="none" stroke="#EBD3C0" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="ais-septum-left" d="M 942 565 C 909 570 894 600 891 640 C 884 697 884 757 899 806 C 916 860 937 886 972 885 C 1001 891 1024 889 1044 880" fill="none" stroke="#EBD3C0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="ais-septum-right" d="M 1087 742 C 1120 727 1164 717 1207 723 C 1236 728 1248 757 1250 792 C 1255 837 1251 895 1200 927" fill="none" stroke="#EBD3C0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="ais-contour-top" d="M 1008 434 C 1029 420 1048 420 1068 430 C 1094 442 1119 450 1143 463" fill="none" stroke="#BC9883" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="ais-contour-center" d="M 951 585 C 966 638 994 689 1032 716 C 1059 735 1083 742 1078 754" fill="none" stroke="#BC9883" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="ais-contour-lower" d="M 891 708 C 884 751 891 795 908 833 C 925 873 947 887 974 885 C 1000 890 1021 885 1036 878" fill="none" stroke="#BC9883" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="ais-contour-second-alveolus" d="M 1155 723 C 1217 705 1241 740 1250 788" fill="none" stroke="#BC9883" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="ais-normal-epithelium">
+      <title>Attenuated epithelium on preserved septa</title>
+      <g id="ais-normal-01">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="ais-normal-01-membrane" d="M 1136 461 C 1166 471 1185 492 1194 521 C 1202 548 1218 553 1232 579 C 1211 550 1183 541 1168 523 C 1154 503 1164 486 1136 461 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="ais-normal-01-nucleus" cx="1174" cy="507" rx="4.6" ry="8.9" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(-28 1174 507)"/>
+      </g>
+      <g id="ais-normal-02">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="ais-normal-02-membrane" d="M 1251 815 C 1257 850 1252 885 1235 904 C 1225 915 1210 921 1199 928 C 1218 911 1232 897 1239 876 C 1243 857 1248 837 1251 815 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="ais-normal-02-nucleus" cx="1243" cy="873" rx="3.4" ry="9" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(18 1243 873)"/>
+      </g>
+    </g>
+    <g id="ais-neoplastic-epithelium">
+      <title>Confluent lepidic neoplastic lining</title>
+      <g id="ais-lepidic-01">
+        <title>Epithelial cell</title>
+        <g transform="translate(1043 443) rotate(-10)">
+          <path id="ais-lepidic-01-membrane" d="M -25.2 -5.28 C -25.76 -12.48 -9.52 -15.76 6.16 -15.68 C 23.24 -15.68 29.12 -6.72 27.16 2.72 C 26.88 12.16 10.08 18.24 -5.04 15.52 C -22.4 14.56 -28.28 4.64 -25.2 -5.28 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-01-nucleus" cx="-2.8" cy="-1.04" rx="8.12" ry="4.8" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -2.8 -1.04)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-02">
+        <title>Epithelial cell</title>
+        <g transform="translate(1008 467) rotate(28)">
+          <path id="ais-lepidic-02-membrane" d="M -17.1 -7.92 C -18.33 -18.72 -6.46 -24.24 4.18 -23.52 C 15.77 -23.52 19.76 -10.08 18.43 4.08 C 18.24 18.24 6.84 26.28 -3.42 23.28 C -15.2 21.84 -19.19 6.96 -17.1 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-02-nucleus" cx="0.38" cy="0.12" rx="5.85" ry="7.49" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.38 0.12)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-03">
+        <title>Epithelial cell</title>
+        <g transform="translate(990 501) rotate(8)">
+          <path id="ais-lepidic-03-membrane" d="M -16.2 -7.92 C -18.18 -18.72 -6.12 -24.84 3.96 -23.52 C 14.94 -23.52 18.72 -10.08 17.46 4.08 C 17.28 18.24 6.48 25.2 -3.24 23.28 C -14.4 21.84 -18.18 6.96 -16.2 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-03-nucleus" cx="2.52" cy="1.8" rx="5.87" ry="7.78" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 2.52 1.8)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-04">
+        <title>Epithelial cell</title>
+        <g transform="translate(980 534) rotate(-5)">
+          <path id="ais-lepidic-04-membrane" d="M -17.1 -7.59 C -20.04 -17.94 -6.46 -24.38 4.18 -22.54 C 15.77 -22.54 19.76 -9.66 18.43 3.91 C 18.24 17.48 6.84 23.12 -3.42 22.31 C -15.2 20.93 -19.19 6.67 -17.1 -7.59 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-04-nucleus" cx="-1.9" cy="3.34" rx="5.51" ry="7.73" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -1.9 3.34)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-05">
+        <title>Epithelial cell</title>
+        <g transform="translate(986 571) rotate(-11)">
+          <path id="ais-lepidic-05-membrane" d="M -16.2 -7.59 C -19.8 -17.94 -6.12 -24.95 3.96 -22.54 C 14.94 -22.54 18.72 -9.66 17.46 3.91 C 17.28 17.48 6.48 22.08 -3.24 22.31 C -14.4 20.93 -18.18 6.67 -16.2 -7.59 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-05-nucleus" cx="0.36" cy="-1.49" rx="5.54" ry="6.9" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.36 -1.49)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-06">
+        <title>Epithelial cell</title>
+        <g transform="translate(1004 604) rotate(-25)">
+          <path id="ais-lepidic-06-membrane" d="M -17.1 -7.26 C -17.48 -17.16 -6.46 -24.42 4.18 -21.56 C 15.77 -21.56 19.76 -9.24 18.43 3.74 C 18.24 16.72 6.84 25.08 -3.42 21.34 C -15.2 20.02 -19.19 6.38 -17.1 -7.26 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-06-nucleus" cx="2.66" cy="0.11" rx="6.19" ry="6.86" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 2.66 0.11)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-07">
+        <title>Epithelial cell</title>
+        <g transform="translate(1018 634) rotate(-28)">
+          <path id="ais-lepidic-07-membrane" d="M -17.1 -7.92 C -18.33 -18.72 -6.46 -27.24 4.18 -23.52 C 15.77 -23.52 19.76 -10.08 18.43 4.08 C 18.24 18.24 6.84 26.28 -3.42 23.28 C -15.2 21.84 -19.19 6.96 -17.1 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-07-nucleus" cx="-1.9" cy="1.8" rx="5.51" ry="7.78" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -1.9 1.8)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-08">
+        <title>Epithelial cell</title>
+        <g transform="translate(1040 660) rotate(-17)">
+          <path id="ais-lepidic-08-membrane" d="M -18 -7.92 C -20.2 -18.72 -6.8 -23.64 4.4 -23.52 C 16.6 -23.52 20.8 -10.08 19.4 4.08 C 19.2 18.24 7.2 25.2 -3.6 23.28 C -16 21.84 -20.2 6.96 -18 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-08-nucleus" cx="0.4" cy="3.48" rx="6.16" ry="8.06" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.4 3.48)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-09">
+        <title>Epithelial cell</title>
+        <g transform="translate(1063 687) rotate(28)">
+          <path id="ais-lepidic-09-membrane" d="M -16.2 -7.92 C -18.99 -18.72 -6.12 -24.24 3.96 -23.52 C 14.94 -23.52 18.72 -10.08 17.46 4.08 C 17.28 18.24 6.48 24.12 -3.24 23.28 C -14.4 21.84 -18.18 6.96 -16.2 -7.92 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-09-nucleus" cx="2.52" cy="-1.56" rx="5.87" ry="7.2" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 2.52 -1.56)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-10">
+        <title>Epithelial cell</title>
+        <g transform="translate(1088 703) rotate(7)">
+          <path id="ais-lepidic-10-membrane" d="M -13.5 -7.92 C -16.5 -18.72 -5.1 -24.84 3.3 -23.52 C 12.45 -23.52 15.6 -10.08 14.55 4.08 C 14.4 18.24 5.4 23.04 -2.7 23.28 C -12 21.84 -15.15 6.96 -13.5 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-10-nucleus" cx="-1.5" cy="0.12" rx="4.35" ry="7.49" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -1.5 0.12)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-11">
+        <title>Epithelial cell</title>
+        <g transform="translate(1115 705) rotate(-6)">
+          <path id="ais-lepidic-11-membrane" d="M -15.3 -7.59 C -15.64 -17.94 -5.78 -24.38 3.74 -22.54 C 14.11 -22.54 17.68 -9.66 16.49 3.91 C 16.32 17.48 6.12 26.22 -3.06 22.31 C -13.6 20.93 -17.17 6.67 -15.3 -7.59 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-11-nucleus" cx="0.34" cy="1.73" rx="5.24" ry="7.45" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.34 1.73)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-12">
+        <title>Epithelial cell</title>
+        <g transform="translate(1143 704) rotate(-5)">
+          <path id="ais-lepidic-12-membrane" d="M -14.4 -7.26 C -15.44 -17.16 -5.44 -23.87 3.52 -21.56 C 13.28 -21.56 16.64 -9.24 15.52 3.74 C 15.36 16.72 5.76 24.09 -2.88 21.34 C -12.8 20.02 -16.16 6.38 -14.4 -7.26 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-12-nucleus" cx="2.24" cy="3.19" rx="5.22" ry="7.39" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 2.24 3.19)"/>
+        </g>
+      </g>
+      <g id="ais-lepidic-13">
+        <title>Epithelial cell</title>
+        <g transform="translate(1212 716) rotate(-9)">
+          <path id="ais-lepidic-13-membrane" d="M -16.2 -7.26 C -18.18 -17.16 -6.12 -24.42 3.96 -21.56 C 14.94 -21.56 18.72 -9.24 17.46 3.74 C 17.28 16.72 6.48 23.1 -3.24 21.34 C -14.4 20.02 -18.18 6.38 -16.2 -7.26 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lepidic-13-nucleus" cx="-1.8" cy="-1.43" rx="5.22" ry="6.6" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -1.8 -1.43)"/>
+        </g>
+      </g>
+      <path id="ais-left-epithelial-membrane" d="M 943 565 C 931 553 914 561 902 585 C 890 611 890 640 889 670 C 895 638 893 614 911 601 C 925 595 936 584 943 575 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse id="ais-left-epithelial-nucleus" cx="927" cy="581" rx="6" ry="9" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(40 927 581)"/>
+      <path id="ais-lower-left-profile" d="M 890 710 C 884 747 889 781 905 804 C 914 817 913 837 925 849 C 943 838 932 811 925 798 C 904 786 905 750 890 710 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse id="ais-lower-left-nucleus" cx="918" cy="810" rx="4.7" ry="9.4" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-26 918 810)"/>
+      <g id="ais-lower-lining-01">
+        <title>Epithelial cell</title>
+        <g transform="translate(944 851) rotate(36)">
+          <path id="ais-lower-lining-01-membrane" d="M -19.8 -4.95 C -20.24 -11.7 -7.48 -14.78 4.84 -14.7 C 18.26 -14.7 22.88 -6.3 21.34 2.55 C 21.12 11.4 7.92 17.1 -3.96 14.55 C -17.6 13.65 -22.22 4.35 -19.8 -4.95 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lower-lining-01-nucleus" cx="-2.2" cy="-0.98" rx="6.38" ry="4.5" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -2.2 -0.98)"/>
+        </g>
+      </g>
+      <g id="ais-lower-lining-02">
+        <title>Epithelial cell</title>
+        <g transform="translate(973 869) rotate(12)">
+          <path id="ais-lower-lining-02-membrane" d="M -18.9 -5.28 C -20.26 -12.48 -7.14 -16.16 4.62 -15.68 C 17.43 -15.68 21.84 -6.72 20.37 2.72 C 20.16 12.16 7.56 17.52 -3.78 15.52 C -16.8 14.56 -21.21 4.64 -18.9 -5.28 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lower-lining-02-nucleus" cx="0.42" cy="0.08" rx="6.47" ry="4.99" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.42 0.08)"/>
+        </g>
+      </g>
+      <g id="ais-lower-lining-03">
+        <title>Epithelial cell</title>
+        <g transform="translate(1012 865) rotate(-17)">
+          <path id="ais-lower-lining-03-membrane" d="M -22.5 -6.27 C -25.25 -14.82 -8.5 -19.67 5.5 -18.62 C 20.75 -18.62 26 -7.98 24.25 3.23 C 24 14.44 9 19.95 -4.5 18.43 C -20 17.29 -25.25 5.51 -22.5 -6.27 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lower-lining-03-nucleus" cx="3.5" cy="1.43" rx="8.15" ry="6.16" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 3.5 1.43)"/>
+        </g>
+      </g>
+      <g id="ais-lower-lining-04">
+        <title>Epithelial cell</title>
+        <g transform="translate(1067 784) rotate(25)">
+          <path id="ais-lower-lining-04-membrane" d="M -13.5 -10.23 C -15.82 -24.18 -5.1 -32.86 3.3 -30.38 C 12.45 -30.38 15.6 -13.02 14.55 5.27 C 14.4 23.56 5.4 31.16 -2.7 30.07 C -12 28.21 -15.15 8.99 -13.5 -10.23 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="ais-lower-lining-04-nucleus" cx="-1.5" cy="4.5" rx="4.35" ry="10.42" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -1.5 4.5)"/>
+        </g>
+      </g>
+    </g>
+    <g id="ais-stroma">
+      <title>Sparse stromal profiles without invasion</title>
+      <g id="ais-fibroblast-01">
+        <title>Stromal spindle cell</title>
+        <path id="ais-fibroblast-01-membrane" d="M 917 534 C 932 496 922 480 938 467 C 954 454 964 449 978 439 C 962 457 956 467 953 481 C 951 501 931 506 919 532 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="ais-fibroblast-01-nucleus" cx="943" cy="482" rx="5.6" ry="7.5" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(22 943 482)"/>
+      </g>
+      <g id="ais-fibroblast-02">
+        <title>Stromal spindle cell</title>
+        <path id="ais-fibroblast-02-membrane" d="M 1038 892 C 1061 895 1086 899 1096 916 C 1107 935 1119 943 1133 950 C 1108 945 1093 933 1079 931 C 1065 927 1057 901 1038 892 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="ais-fibroblast-02-nucleus" cx="1087" cy="920" rx="4.9" ry="8" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(-40 1087 920)"/>
+      </g>
+    </g>
+  </g>
+  <g id="stage-mia">
+    <title>MIA — predominantly lepidic growth and one localized invasive focus</title>
+    <text id="label-mia" x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="400" text-anchor="middle" fill="#484241" transform="translate(1445.5 339) scale(0.87 1)">MIA</text>
+    <g id="mia-alveolar-wall">
+      <title>Predominantly preserved alveolar architecture</title>
+      <path id="mia-septum-upper" d="M 1327 574 C 1336 525 1351 469 1392 440 C 1413 421 1439 423 1460 437 C 1490 454 1529 464 1542 491 C 1556 520 1562 532 1562 548" fill="none" stroke="#EBD3C0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mia-septum-ring" d="M 1323 585 C 1345 603 1355 635 1382 670 C 1402 697 1436 706 1459 725 C 1477 746 1452 765 1449 791 C 1444 821 1414 836 1386 837 C 1339 836 1302 805 1287 763 C 1271 724 1265 677 1272 640" fill="none" stroke="#EBD3C0" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mia-local-reactive-septum" d="M 1468 705 C 1488 721 1485 755 1486 783 C 1488 806 1484 826 1488 843" fill="none" stroke="#EBD3C0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mia-upper-contour" d="M 1407 430 C 1431 415 1452 430 1474 444 C 1504 462 1538 465 1547 494 C 1553 515 1561 527 1562 545" fill="none" stroke="#BC9883" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mia-ring-contour" d="M 1269 686 C 1268 735 1288 790 1320 813 C 1352 837 1397 847 1425 830" fill="none" stroke="#BC9883" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mia-central-contour" d="M 1358 633 C 1376 669 1398 695 1430 708" fill="none" stroke="#BC9883" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="mia-normal-epithelium">
+      <title>Residual normal alveolar epithelium</title>
+      <g id="mia-normal-01">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="mia-normal-01-membrane" d="M 1267 685 C 1265 642 1273 605 1295 584 C 1317 565 1332 579 1341 594 C 1316 579 1319 608 1302 612 C 1280 613 1275 650 1267 685 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="mia-normal-01-nucleus" cx="1311" cy="596" rx="5.4" ry="8.7" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(33 1311 596)"/>
+      </g>
+      <g id="mia-normal-02">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="mia-normal-02-membrane" d="M 1268 696 C 1277 731 1286 748 1300 759 C 1316 772 1312 800 1348 824 C 1322 812 1299 795 1286 773 C 1273 750 1267 721 1268 696 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="mia-normal-02-nucleus" cx="1299" cy="775" rx="4.6" ry="8.6" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(-27 1299 775)"/>
+      </g>
+      <g id="mia-normal-03">
+        <title>Attenuated alveolar epithelial cell</title>
+        <path id="mia-normal-03-membrane" d="M 1352 622 C 1373 649 1373 664 1399 685 C 1420 699 1440 709 1455 731 C 1477 750 1451 766 1448 791 C 1446 808 1436 823 1419 830 C 1435 806 1431 788 1437 772 C 1446 752 1441 742 1426 727 C 1408 710 1388 699 1377 678 C 1367 657 1362 640 1352 622 Z" fill="#A2ADBE" stroke="#485260" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="mia-normal-03-nucleus" cx="1446" cy="778" rx="4.5" ry="8.5" fill="#7D899F" stroke="#485260" stroke-width="1" transform="rotate(18 1446 778)"/>
+      </g>
+    </g>
+    <g id="mia-neoplastic-epithelium">
+      <title>Lepidic lining</title>
+      <g id="mia-lepidic-01">
+        <title>Epithelial cell</title>
+        <g transform="translate(1429 440) rotate(-8)">
+          <path id="mia-lepidic-01-membrane" d="M -25.2 -5.28 C -25.76 -12.48 -9.52 -15.76 6.16 -15.68 C 23.24 -15.68 29.12 -6.72 27.16 2.72 C 26.88 12.16 10.08 18.24 -5.04 15.52 C -22.4 14.56 -28.28 4.64 -25.2 -5.28 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-01-nucleus" cx="-2.8" cy="-1.04" rx="8.12" ry="4.8" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -2.8 -1.04)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-02">
+        <title>Epithelial cell</title>
+        <g transform="translate(1398 461) rotate(25)">
+          <path id="mia-lepidic-02-membrane" d="M -16.2 -7.92 C -17.37 -18.72 -6.12 -24.24 3.96 -23.52 C 14.94 -23.52 18.72 -10.08 17.46 4.08 C 17.28 18.24 6.48 26.28 -3.24 23.28 C -14.4 21.84 -18.18 6.96 -16.2 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-02-nucleus" cx="0.36" cy="0.12" rx="5.54" ry="7.49" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.36 0.12)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-03">
+        <title>Epithelial cell</title>
+        <g transform="translate(1376 490) rotate(19)">
+          <path id="mia-lepidic-03-membrane" d="M -18 -7.92 C -20.2 -18.72 -6.8 -24.84 4.4 -23.52 C 16.6 -23.52 20.8 -10.08 19.4 4.08 C 19.2 18.24 7.2 25.2 -3.6 23.28 C -16 21.84 -20.2 6.96 -18 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-03-nucleus" cx="2.8" cy="1.8" rx="6.52" ry="7.78" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 2.8 1.8)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-04">
+        <title>Epithelial cell</title>
+        <g transform="translate(1359 520) rotate(12)">
+          <path id="mia-lepidic-04-membrane" d="M -17.1 -7.26 C -20.04 -17.16 -6.46 -23.32 4.18 -21.56 C 15.77 -21.56 19.76 -9.24 18.43 3.74 C 18.24 16.72 6.84 22.11 -3.42 21.34 C -15.2 20.02 -19.19 6.38 -17.1 -7.26 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-04-nucleus" cx="-1.9" cy="3.19" rx="5.51" ry="7.39" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -1.9 3.19)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-05">
+        <title>Epithelial cell</title>
+        <g transform="translate(1353 552) rotate(-6)">
+          <path id="mia-lepidic-05-membrane" d="M -16.2 -6.93 C -19.8 -16.38 -6.12 -22.78 3.96 -20.58 C 14.94 -20.58 18.72 -8.82 17.46 3.57 C 17.28 15.96 6.48 20.16 -3.24 20.37 C -14.4 19.11 -18.18 6.09 -16.2 -6.93 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-05-nucleus" cx="0.36" cy="-1.36" rx="5.54" ry="6.3" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.36 -1.36)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-06">
+        <title>Epithelial cell</title>
+        <g transform="translate(1365 583) rotate(-7)">
+          <path id="mia-lepidic-06-membrane" d="M -15.3 -7.59 C -15.64 -17.94 -5.78 -25.53 3.74 -22.54 C 14.11 -22.54 17.68 -9.66 16.49 3.91 C 16.32 17.48 6.12 26.22 -3.06 22.31 C -13.6 20.93 -17.17 6.67 -15.3 -7.59 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-06-nucleus" cx="2.38" cy="0.11" rx="5.54" ry="7.18" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 2.38 0.11)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-07">
+        <title>Epithelial cell</title>
+        <g transform="translate(1383 614) rotate(-19)">
+          <path id="mia-lepidic-07-membrane" d="M -17.1 -7.59 C -18.33 -17.94 -6.46 -26.1 4.18 -22.54 C 15.77 -22.54 19.76 -9.66 18.43 3.91 C 18.24 17.48 6.84 25.19 -3.42 22.31 C -15.2 20.93 -19.19 6.67 -17.1 -7.59 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-07-nucleus" cx="-1.9" cy="1.73" rx="5.51" ry="7.45" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -1.9 1.73)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-08">
+        <title>Epithelial cell</title>
+        <g transform="translate(1400 642) rotate(-18)">
+          <path id="mia-lepidic-08-membrane" d="M -15.3 -7.92 C -17.17 -18.72 -5.78 -23.64 3.74 -23.52 C 14.11 -23.52 17.68 -10.08 16.49 4.08 C 16.32 18.24 6.12 25.2 -3.06 23.28 C -13.6 21.84 -17.17 6.96 -15.3 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-08-nucleus" cx="0.34" cy="3.48" rx="5.24" ry="8.06" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.34 3.48)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-09">
+        <title>Epithelial cell</title>
+        <g transform="translate(1425 671) rotate(-31)">
+          <path id="mia-lepidic-09-membrane" d="M -18.9 -7.59 C -22.15 -17.94 -7.14 -23.23 4.62 -22.54 C 17.43 -22.54 21.84 -9.66 20.37 3.91 C 20.16 17.48 7.56 23.12 -3.78 22.31 C -16.8 20.93 -21.21 6.67 -18.9 -7.59 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-09-nucleus" cx="2.94" cy="-1.49" rx="6.85" ry="6.9" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 2.94 -1.49)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-10">
+        <title>Epithelial cell</title>
+        <g transform="translate(1453 690) rotate(11)">
+          <path id="mia-lepidic-10-membrane" d="M -17.1 -7.26 C -20.9 -17.16 -6.46 -22.77 4.18 -21.56 C 15.77 -21.56 19.76 -9.24 18.43 3.74 C 18.24 16.72 6.84 21.12 -3.42 21.34 C -15.2 20.02 -19.19 6.38 -17.1 -7.26 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-10-nucleus" cx="-1.9" cy="0.11" rx="5.51" ry="6.86" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -1.9 0.11)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-11">
+        <title>Epithelial cell</title>
+        <g transform="translate(1478 690) rotate(-8)">
+          <path id="mia-lepidic-11-membrane" d="M -13.5 -7.59 C -13.8 -17.94 -5.1 -24.38 3.3 -22.54 C 12.45 -22.54 15.6 -9.66 14.55 3.91 C 14.4 17.48 5.4 26.22 -2.7 22.31 C -12 20.93 -15.15 6.67 -13.5 -7.59 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-11-nucleus" cx="0.3" cy="1.73" rx="4.62" ry="7.45" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.3 1.73)"/>
+        </g>
+      </g>
+      <g id="mia-lepidic-12">
+        <title>Epithelial cell</title>
+        <g transform="translate(1498 682) rotate(-17)">
+          <path id="mia-lepidic-12-membrane" d="M -12.6 -7.26 C -13.51 -17.16 -4.76 -23.87 3.08 -21.56 C 11.62 -21.56 14.56 -9.24 13.58 3.74 C 13.44 16.72 5.04 24.09 -2.52 21.34 C -11.2 20.02 -14.14 6.38 -12.6 -7.26 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-lepidic-12-nucleus" cx="1.96" cy="3.19" rx="4.56" ry="7.39" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 1.96 3.19)"/>
+        </g>
+      </g>
+    </g>
+    <g id="mia-invasive-focus">
+      <title>One small connected invasive focus</title>
+      <path id="mia-invasion-bridge" d="M 1498 696 C 1505 702 1508 715 1510 724 C 1511 736 1524 739 1532 738 L 1538 755 C 1526 759 1512 750 1504 739 C 1499 731 1499 711 1491 704 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse id="mia-invasion-bridge-nucleus" cx="1507" cy="722" rx="3.8" ry="6.2" fill="#C88B8D" stroke="#775356" stroke-width="1" transform="rotate(-15 1507 722)"/>
+      <g id="mia-invasive-01">
+        <title>Epithelial cell</title>
+        <g transform="translate(1518 735) rotate(22)">
+          <path id="mia-invasive-01-membrane" d="M -12.6 -5.28 C -12.88 -12.48 -4.76 -15.76 3.08 -15.68 C 11.62 -15.68 14.56 -6.72 13.58 2.72 C 13.44 12.16 5.04 18.24 -2.52 15.52 C -11.2 14.56 -14.14 4.64 -12.6 -5.28 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-invasive-01-nucleus" cx="-1.4" cy="-1.04" rx="4.06" ry="4.8" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -1.4 -1.04)"/>
+        </g>
+      </g>
+      <g id="mia-invasive-02">
+        <title>Epithelial cell</title>
+        <g transform="translate(1537 750) rotate(-20)">
+          <path id="mia-invasive-02-membrane" d="M -13.5 -6.6 C -14.47 -15.6 -5.1 -20.2 3.3 -19.6 C 12.45 -19.6 15.6 -8.4 14.55 3.4 C 14.4 15.2 5.4 21.9 -2.7 19.4 C -12 18.2 -15.15 5.8 -13.5 -6.6 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-invasive-02-nucleus" cx="0.3" cy="0.1" rx="4.62" ry="6.24" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.3 0.1)"/>
+        </g>
+      </g>
+      <g id="mia-invasive-03">
+        <title>Epithelial cell</title>
+        <g transform="translate(1562 746) rotate(-5)">
+          <path id="mia-invasive-03-membrane" d="M -12.6 -6.93 C -14.14 -16.38 -4.76 -21.74 3.08 -20.58 C 11.62 -20.58 14.56 -8.82 13.58 3.57 C 13.44 15.96 5.04 22.05 -2.52 20.37 C -11.2 19.11 -14.14 6.09 -12.6 -6.93 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-invasive-03-nucleus" cx="1.96" cy="1.58" rx="4.56" ry="6.8" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 1.96 1.58)"/>
+        </g>
+      </g>
+      <g id="mia-invasive-04">
+        <title>Epithelial cell</title>
+        <g transform="translate(1560 778) rotate(14)">
+          <path id="mia-invasive-04-membrane" d="M -13.5 -6.27 C -15.82 -14.82 -5.1 -20.14 3.3 -18.62 C 12.45 -18.62 15.6 -7.98 14.55 3.23 C 14.4 14.44 5.4 19.1 -2.7 18.43 C -12 17.29 -15.15 5.51 -13.5 -6.27 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-invasive-04-nucleus" cx="-1.5" cy="2.76" rx="4.35" ry="6.38" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -1.5 2.76)"/>
+        </g>
+      </g>
+      <g id="mia-invasive-05">
+        <title>Epithelial cell</title>
+        <g transform="translate(1536 790) rotate(-10)">
+          <path id="mia-invasive-05-membrane" d="M -16.2 -7.92 C -19.8 -18.72 -6.12 -26.04 3.96 -23.52 C 14.94 -23.52 18.72 -10.08 17.46 4.08 C 17.28 18.24 6.48 23.04 -3.24 23.28 C -14.4 21.84 -18.18 6.96 -16.2 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-invasive-05-nucleus" cx="0.36" cy="-1.56" rx="5.54" ry="7.2" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.36 -1.56)"/>
+        </g>
+      </g>
+      <g id="mia-invasive-06">
+        <title>Epithelial cell</title>
+        <g transform="translate(1503 777) rotate(-6)">
+          <path id="mia-invasive-06-membrane" d="M -12.6 -6.27 C -12.88 -14.82 -4.76 -21.09 3.08 -18.62 C 11.62 -18.62 14.56 -7.98 13.58 3.23 C 13.44 14.44 5.04 21.66 -2.52 18.43 C -11.2 17.29 -14.14 5.51 -12.6 -6.27 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-invasive-06-nucleus" cx="1.96" cy="0.09" rx="4.56" ry="5.93" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 1.96 0.09)"/>
+        </g>
+      </g>
+      <g id="mia-invasive-07">
+        <title>Epithelial cell</title>
+        <g transform="translate(1507 755) rotate(21)">
+          <path id="mia-invasive-07-membrane" d="M -11.7 -4.95 C -12.54 -11.7 -4.42 -17.02 2.86 -14.7 C 10.79 -14.7 13.52 -6.3 12.61 2.55 C 12.48 11.4 4.68 16.43 -2.34 14.55 C -10.4 13.65 -13.13 4.35 -11.7 -4.95 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="mia-invasive-07-nucleus" cx="-1.3" cy="1.13" rx="3.77" ry="4.86" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -1.3 1.13)"/>
+        </g>
+      </g>
+      <path id="mia-local-tumor-bud" d="M 1475 662 C 1476 654 1493 643 1502 649 C 1509 655 1496 657 1489 657 C 1484 658 1480 662 1475 663 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mia-local-stromal-ribbon" d="M 1497 759 C 1488 748 1486 730 1490 716 M 1538 808 C 1553 815 1563 808 1574 796" fill="none" stroke="#EBD3C0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mia-local-stromal-contour" d="M 1481 725 C 1474 746 1478 775 1470 798" fill="none" stroke="#BC9883" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mia-local-stromal-contour-2" d="M 1521 835 C 1542 825 1556 831 1575 815" fill="none" stroke="#BC9883" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="mia-stroma">
+      <title>Mild localized stromal reaction</title>
+      <g id="mia-fibroblast-01">
+        <title>Stromal spindle cell</title>
+        <path id="mia-fibroblast-01-membrane" d="M 1289 578 C 1301 548 1309 535 1323 517 C 1315 542 1316 554 1307 564 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="mia-fibroblast-01-nucleus" cx="1306" cy="553" rx="3.1" ry="6" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(30 1306 553)"/>
+      </g>
+      <g id="mia-fibroblast-02">
+        <title>Stromal spindle cell</title>
+        <path id="mia-fibroblast-02-membrane" d="M 1545 450 C 1559 465 1572 466 1579 478 C 1582 491 1585 504 1590 519 C 1575 500 1564 493 1560 481 C 1558 470 1554 459 1545 450 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="mia-fibroblast-02-nucleus" cx="1572" cy="483" rx="3.7" ry="6.4" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(-24 1572 483)"/>
+      </g>
+      <g id="mia-fibroblast-03">
+        <title>Stromal spindle cell</title>
+        <path id="mia-fibroblast-03-membrane" d="M 1542 715 C 1554 687 1559 670 1578 657 C 1585 652 1593 643 1601 635 C 1587 656 1587 671 1582 682 C 1565 688 1556 703 1542 715 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="mia-fibroblast-03-nucleus" cx="1575" cy="676" rx="4.1" ry="7.3" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(22 1575 676)"/>
+      </g>
+      <g id="mia-fibroblast-04">
+        <title>Stromal spindle cell</title>
+        <path id="mia-fibroblast-04-membrane" d="M 1285 820 C 1297 832 1310 842 1315 854 C 1318 864 1322 871 1329 878 C 1313 869 1302 868 1297 855 C 1293 842 1290 829 1285 820 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="mia-fibroblast-04-nucleus" cx="1309" cy="858" rx="3.4" ry="6.8" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(-24 1309 858)"/>
+      </g>
+      <g id="mia-fibroblast-05">
+        <title>Stromal spindle cell</title>
+        <path id="mia-fibroblast-05-membrane" d="M 1408 874 C 1424 853 1427 838 1447 830 C 1457 824 1463 818 1472 805 C 1464 825 1465 838 1450 848 C 1435 856 1423 867 1408 874 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="mia-fibroblast-05-nucleus" cx="1447" cy="841" rx="3.8" ry="7.1" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(34 1447 841)"/>
+      </g>
+      <path id="mia-reactive-fiber-01" d="M 1531 709 C 1548 676 1556 638 1560 600" fill="none" stroke="#BC9883" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mia-reactive-fiber-02" d="M 1336 865 C 1363 864 1381 875 1406 868" fill="none" stroke="#BC9883" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="mia-immune-cells">
+      <title>Representative immune cells</title>
+      <g id="mia-immune-sage-01">
+        <title>Representative immune cell</title>
+        <ellipse id="mia-immune-sage-01-membrane" cx="1605" cy="729" rx="19" ry="21" fill="#B7CCB8" stroke="#657B6B" stroke-width="1.2" transform="rotate(-8 1605 729)"/>
+        <ellipse id="mia-immune-sage-01-nucleus" cx="1604" cy="730" rx="11.02" ry="12.81" fill="#8DAA94" stroke="#657B6B" stroke-width="0.95" transform="rotate(-8 1604 730)"/>
+      </g>
+      <g id="mia-immune-sage-02">
+        <title>Representative immune cell</title>
+        <ellipse id="mia-immune-sage-02-membrane" cx="1604" cy="801" rx="8" ry="9" fill="#B7CCB8" stroke="#657B6B" stroke-width="1.2" transform="rotate(-8 1604 801)"/>
+      </g>
+      <g id="mia-immune-sage-03">
+        <title>Representative immune cell</title>
+        <ellipse id="mia-immune-sage-03-membrane" cx="1563" cy="640" rx="6" ry="7" fill="#B7CCB8" stroke="#657B6B" stroke-width="1.2" transform="rotate(-8 1563 640)"/>
+      </g>
+      <g id="mia-immune-lavender-01">
+        <title>Representative immune cell</title>
+        <ellipse id="mia-immune-lavender-01-membrane" cx="1460" cy="890" rx="20" ry="21" fill="#CBB2D5" stroke="#705A7E" stroke-width="1.2" transform="rotate(-8 1460 890)"/>
+        <ellipse id="mia-immune-lavender-01-nucleus" cx="1459" cy="891" rx="11.6" ry="12.81" fill="#AD8CBC" stroke="#705A7E" stroke-width="0.95" transform="rotate(-8 1459 891)"/>
+      </g>
+      <g id="mia-immune-lavender-02">
+        <title>Representative immune cell</title>
+        <ellipse id="mia-immune-lavender-02-membrane" cx="1509" cy="815" rx="5.2" ry="5.7" fill="#CBB2D5" stroke="#705A7E" stroke-width="1.2" transform="rotate(-8 1509 815)"/>
+      </g>
+      <ellipse id="mia-stromal-small-profile" cx="1549" cy="844" rx="9" ry="10" fill="#EAD1B7" stroke="#6A5C4D" stroke-width="1" transform="rotate(17 1549 844)"/>
+      <g id="mia-stromal-upper-small">
+        <title>Stromal spindle cell</title>
+        <path id="mia-stromal-upper-small-membrane" d="M 1296 523 C 1303 506 1295 495 1303 484 C 1309 476 1320 481 1321 491 C 1322 507 1307 513 1296 523 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="mia-stromal-upper-small-nucleus" cx="1311" cy="494" rx="4" ry="7" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(3 1311 494)"/>
+      </g>
+    </g>
+  </g>
+  <g id="stage-luad">
+    <title>LUAD — invasive glands in reactive stroma</title>
+    <text id="label-luad" x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="400" text-anchor="middle" fill="#484241" transform="translate(1826.5 339) scale(0.87 1)">LUAD</text>
+    <g id="luad-stroma">
+      <title>Moderate reactive stroma</title>
+      <path id="luad-stromal-band-01" d="M 1649 517 C 1707 525 1745 498 1773 475 C 1797 450 1817 429 1841 413 C 1813 436 1797 456 1780 481 C 1748 511 1702 536 1649 522 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-02" d="M 1660 556 C 1696 527 1735 528 1760 514 C 1790 497 1802 475 1828 454 C 1804 479 1798 503 1768 521 C 1737 540 1699 534 1660 556 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-03" d="M 1873 443 C 1909 466 1907 506 1897 549 C 1890 580 1880 615 1880 650 C 1872 621 1883 579 1889 554 C 1897 513 1902 475 1873 443 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-04" d="M 1950 424 C 1942 463 1941 495 1962 518 C 1992 550 1986 603 1978 638 C 1979 592 1986 556 1955 524 C 1933 499 1933 465 1950 424 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-05" d="M 1649 640 C 1680 663 1697 684 1719 699 C 1750 723 1782 733 1812 725 C 1784 741 1744 729 1713 706 C 1688 688 1670 658 1649 640 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-06" d="M 1651 847 C 1707 824 1754 801 1799 769 C 1839 738 1847 714 1872 687 C 1905 655 1968 657 2025 638 C 1971 667 1912 671 1880 697 C 1859 720 1845 750 1806 780 C 1755 813 1706 833 1651 847 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-07" d="M 1649 798 C 1683 766 1733 755 1767 736 C 1809 711 1853 675 1887 661 C 1927 645 1961 655 1990 651 C 1958 667 1927 651 1891 669 C 1859 684 1819 717 1773 743 C 1738 763 1690 776 1649 798 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-08" d="M 1696 866 C 1717 840 1741 834 1765 826 C 1745 837 1722 846 1696 866 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-09" d="M 1719 832 C 1709 880 1724 929 1707 973 C 1715 930 1699 878 1719 832 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-10" d="M 1798 975 C 1832 953 1854 936 1875 904 C 1901 871 1942 867 1971 852 C 1998 836 2009 812 2028 796 C 2010 818 2004 842 1976 859 C 1946 877 1908 880 1883 911 C 1860 942 1833 962 1798 975 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-11" d="M 1802 955 C 1830 925 1849 903 1853 867 C 1855 835 1853 811 1868 793 C 1860 819 1863 840 1861 870 C 1856 909 1835 934 1802 955 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-stromal-band-12" d="M 1940 951 C 1944 912 1953 880 1970 847 C 1986 816 1989 781 2015 765 C 1995 787 1994 818 1978 852 C 1961 882 1949 915 1940 951 Z" fill="#EBD3C0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-01" d="M 1660 522 C 1722 525 1759 495 1780 470 C 1801 445 1818 430 1841 413" fill="none" stroke="#BC9883" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-02" d="M 1660 559 C 1704 531 1743 532 1776 504" fill="none" stroke="#BC9883" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-03" d="M 1887 420 C 1888 448 1907 461 1910 488" fill="none" stroke="#BC9883" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-04" d="M 1952 418 C 1934 468 1942 499 1967 522" fill="none" stroke="#BC9883" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-05" d="M 1990 547 C 2003 587 2011 621 1992 647" fill="none" stroke="#BC9883" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-06" d="M 1648 583 C 1664 615 1651 637 1678 664" fill="none" stroke="#BC9883" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-07" d="M 1660 656 C 1691 682 1712 715 1747 724" fill="none" stroke="#BC9883" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-08" d="M 1658 851 C 1735 822 1779 793 1819 760 C 1852 733 1862 703 1890 682 C 1924 656 1984 665 2025 639" fill="none" stroke="#BC9883" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-09" d="M 1663 799 C 1693 777 1735 769 1769 744" fill="none" stroke="#BC9883" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-10" d="M 1705 985 C 1729 937 1704 902 1716 860" fill="none" stroke="#BC9883" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-11" d="M 1805 974 C 1843 955 1866 930 1883 906 C 1907 873 1953 871 1976 855" fill="none" stroke="#BC9883" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-12" d="M 1858 859 C 1855 888 1842 916 1829 936" fill="none" stroke="#BC9883" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-13" d="M 1959 894 C 1972 867 1981 842 2002 835" fill="none" stroke="#BC9883" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="luad-fiber-14" d="M 1971 850 C 1985 850 1991 861 2001 868" fill="none" stroke="#BC9883" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="luad-fibroblast-01">
+        <title>Stromal spindle cell</title>
+        <path id="luad-fibroblast-01-membrane" d="M 1703 497 C 1732 465 1754 446 1794 425 C 1772 447 1771 461 1753 471 C 1734 482 1721 481 1703 497 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="luad-fibroblast-01-nucleus" cx="1743" cy="463" rx="8.1" ry="4.3" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(-42 1743 463)"/>
+      </g>
+      <g id="luad-fibroblast-02">
+        <title>Stromal spindle cell</title>
+        <path id="luad-fibroblast-02-membrane" d="M 1903 492 C 1905 475 1888 467 1893 455 C 1904 446 1912 463 1908 477 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="luad-fibroblast-02-nucleus" cx="1901" cy="467" rx="3.4" ry="5.1" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(-11 1901 467)"/>
+      </g>
+      <g id="luad-fibroblast-03">
+        <title>Stromal spindle cell</title>
+        <path id="luad-fibroblast-03-membrane" d="M 1891 551 C 1902 528 1912 516 1928 484 C 1923 511 1925 523 1912 533 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="luad-fibroblast-03-nucleus" cx="1912" cy="519" rx="3" ry="6.2" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(33 1912 519)"/>
+      </g>
+      <g id="luad-fibroblast-04">
+        <title>Stromal spindle cell</title>
+        <path id="luad-fibroblast-04-membrane" d="M 1668 676 C 1683 696 1703 694 1717 718 C 1721 729 1726 741 1730 752 C 1705 729 1685 716 1668 676 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="luad-fibroblast-04-nucleus" cx="1700" cy="711" rx="4.2" ry="8" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(-40 1700 711)"/>
+      </g>
+      <g id="luad-fibroblast-05">
+        <title>Stromal spindle cell</title>
+        <path id="luad-fibroblast-05-membrane" d="M 1740 797 C 1757 776 1786 766 1815 743 C 1799 767 1801 780 1779 786 C 1764 789 1753 790 1740 797 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="luad-fibroblast-05-nucleus" cx="1775" cy="775" rx="7.9" ry="4.1" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(-26 1775 775)"/>
+      </g>
+      <g id="luad-fibroblast-06">
+        <title>Stromal spindle cell</title>
+        <path id="luad-fibroblast-06-membrane" d="M 1889 664 C 1892 640 1906 635 1927 618 C 1916 640 1903 645 1889 664 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="luad-fibroblast-06-nucleus" cx="1904" cy="644" rx="3.2" ry="6.3" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(43 1904 644)"/>
+      </g>
+      <g id="luad-fibroblast-07">
+        <title>Stromal spindle cell</title>
+        <path id="luad-fibroblast-07-membrane" d="M 1958 849 C 1960 818 1960 787 1988 750 C 1976 791 1985 805 1970 828 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="luad-fibroblast-07-nucleus" cx="1971" cy="796" rx="4.4" ry="8.5" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(12 1971 796)"/>
+      </g>
+      <g id="luad-fibroblast-08">
+        <title>Stromal spindle cell</title>
+        <path id="luad-fibroblast-08-membrane" d="M 1859 937 C 1873 911 1867 898 1890 887 C 1906 879 1921 869 1937 860 C 1912 886 1910 900 1894 908 C 1879 914 1872 923 1859 937 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="luad-fibroblast-08-nucleus" cx="1896" cy="897" rx="4.8" ry="8" fill="#CCAF89" stroke="#71604C" stroke-width="1" transform="rotate(32 1896 897)"/>
+      </g>
+      <g id="luad-fibroblast-09">
+        <title>Stromal spindle cell</title>
+        <path id="luad-fibroblast-09-membrane" d="M 2001 556 C 2021 553 2022 571 2016 587 C 2010 577 2005 569 2001 556 Z" fill="#EAD1B7" stroke="#594B3D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="luad-fibroblast-09-nucleus" cx="2012" cy="571" rx="0" ry="0" fill="#CCAF89" stroke="#71604C" stroke-width="1"/>
+      </g>
+      <ellipse id="luad-stromal-small-profile" cx="1685" cy="930" rx="8.4" ry="15" fill="#EAD1B7" stroke="#6A5B4B" stroke-width="1" transform="rotate(-24 1685 930)"/>
+    </g>
+    <g id="luad-neoplastic-epithelium">
+      <title>Irregular invasive glandular epithelium</title>
+      <g id="luad-upper-gland">
+        <title>Upper invasive gland</title>
+        <path id="luad-upper-gland-backing" d="M 1687 579 C 1707 549 1740 531 1770 514 C 1801 493 1814 462 1840 470 C 1875 480 1878 520 1865 559 C 1868 591 1855 631 1847 663 C 1845 691 1822 710 1794 708 C 1767 705 1763 676 1741 664 C 1714 660 1693 640 1683 617 C 1677 604 1678 591 1687 579 Z M 1734 582 C 1747 570 1768 562 1788 551 C 1807 539 1819 538 1821 559 C 1816 583 1820 602 1813 622 C 1808 639 1817 655 1808 669 C 1797 675 1787 649 1777 642 C 1759 631 1741 631 1730 616 C 1721 603 1723 591 1734 582 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd"/>
+        <g id="luad-upper-cell-01">
+          <title>Epithelial cell</title>
+          <g transform="translate(1697 594) rotate(13)">
+            <path id="luad-upper-cell-01-membrane" d="M -17.1 -8.25 C -17.48 -19.5 -6.46 -24.63 4.18 -24.5 C 15.77 -24.5 19.76 -10.5 18.43 4.25 C 18.24 19 6.84 28.5 -3.42 24.25 C -15.2 22.75 -19.19 7.25 -17.1 -8.25 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-01-nucleus" cx="-1.9" cy="-1.62" rx="5.51" ry="7.5" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -1.9 -1.62)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-02">
+          <title>Epithelial cell</title>
+          <g transform="translate(1724 575) rotate(-20)">
+            <path id="luad-upper-cell-02-membrane" d="M -24.3 -9.9 C -26.05 -23.4 -9.18 -30.3 5.94 -29.4 C 22.41 -29.4 28.08 -12.6 26.19 5.1 C 25.92 22.8 9.72 32.85 -4.86 29.1 C -21.6 27.3 -27.27 8.7 -24.3 -9.9 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-02-nucleus" cx="0.54" cy="0.15" rx="8.32" ry="9.36" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.54 0.15)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-03">
+          <title>Epithelial cell</title>
+          <g transform="translate(1767 548) rotate(-26)">
+            <path id="luad-upper-cell-03-membrane" d="M -26.1 -11.88 C -29.29 -28.08 -9.86 -37.26 6.38 -35.28 C 24.07 -35.28 30.16 -15.12 28.13 6.12 C 27.84 27.36 10.44 37.8 -5.22 34.92 C -23.2 32.76 -29.29 10.44 -26.1 -11.88 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-03-nucleus" cx="4.06" cy="2.7" rx="9.45" ry="11.66" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 4.06 2.7)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-04">
+          <title>Epithelial cell</title>
+          <g transform="translate(1798 517) rotate(-13)">
+            <path id="luad-upper-cell-04-membrane" d="M -21.6 -10.23 C -25.32 -24.18 -8.16 -32.86 5.28 -30.38 C 19.92 -30.38 24.96 -13.02 23.28 5.27 C 23.04 23.56 8.64 31.16 -4.32 30.07 C -19.2 28.21 -24.24 8.99 -21.6 -10.23 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-04-nucleus" cx="-2.4" cy="4.5" rx="6.96" ry="10.42" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -2.4 4.5)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-05">
+          <title>Epithelial cell</title>
+          <g transform="translate(1832 497) rotate(-10)">
+            <path id="luad-upper-cell-05-membrane" d="M -20.7 -9.57 C -25.3 -22.62 -7.82 -31.46 5.06 -28.42 C 19.09 -28.42 23.92 -12.18 22.31 4.93 C 22.08 22.04 8.28 27.84 -4.14 28.13 C -18.4 26.39 -23.23 8.41 -20.7 -9.57 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-05-nucleus" cx="0.46" cy="-1.88" rx="7.08" ry="8.7" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.46 -1.88)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-06">
+          <title>Epithelial cell</title>
+          <g transform="translate(1855 517) rotate(12)">
+            <path id="luad-upper-cell-06-membrane" d="M -17.1 -8.91 C -17.48 -21.06 -6.46 -29.97 4.18 -26.46 C 15.77 -26.46 19.76 -11.34 18.43 4.59 C 18.24 20.52 6.84 30.78 -3.42 26.19 C -15.2 24.57 -19.19 7.83 -17.1 -8.91 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-06-nucleus" cx="2.66" cy="0.13" rx="6.19" ry="8.42" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 2.66 0.13)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-07">
+          <title>Epithelial cell</title>
+          <g transform="translate(1850 555) rotate(3)">
+            <path id="luad-upper-cell-07-membrane" d="M -18 -8.58 C -19.3 -20.28 -6.8 -29.51 4.4 -25.48 C 16.6 -25.48 20.8 -10.92 19.4 4.42 C 19.2 19.76 7.2 28.47 -3.6 25.22 C -16 23.66 -20.2 7.54 -18 -8.58 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-07-nucleus" cx="-2" cy="1.95" rx="5.8" ry="8.42" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -2 1.95)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-08">
+          <title>Epithelial cell</title>
+          <g transform="translate(1841 595) rotate(8)">
+            <path id="luad-upper-cell-08-membrane" d="M -18.9 -8.25 C -21.21 -19.5 -7.14 -24.63 4.62 -24.5 C 17.43 -24.5 21.84 -10.5 20.37 4.25 C 20.16 19 7.56 26.25 -3.78 24.25 C -16.8 22.75 -21.21 7.25 -18.9 -8.25 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-08-nucleus" cx="0.42" cy="3.63" rx="6.47" ry="8.4" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.42 3.63)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-09">
+          <title>Epithelial cell</title>
+          <g transform="translate(1831 637) rotate(-18)">
+            <path id="luad-upper-cell-09-membrane" d="M -21.6 -9.9 C -25.32 -23.4 -8.16 -30.3 5.28 -29.4 C 19.92 -29.4 24.96 -12.6 23.28 5.1 C 23.04 22.8 8.64 30.15 -4.32 29.1 C -19.2 27.3 -24.24 8.7 -21.6 -9.9 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-09-nucleus" cx="3.36" cy="-1.95" rx="7.82" ry="9" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 3.36 -1.95)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-10">
+          <title>Epithelial cell</title>
+          <g transform="translate(1820 676) rotate(-16)">
+            <path id="luad-upper-cell-10-membrane" d="M -17.1 -8.25 C -20.9 -19.5 -6.46 -25.88 4.18 -24.5 C 15.77 -24.5 19.76 -10.5 18.43 4.25 C 18.24 19 6.84 24 -3.42 24.25 C -15.2 22.75 -19.19 7.25 -17.1 -8.25 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-10-nucleus" cx="-1.9" cy="0.12" rx="5.51" ry="7.8" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -1.9 0.12)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-11">
+          <title>Epithelial cell</title>
+          <g transform="translate(1792 687) rotate(-16)">
+            <path id="luad-upper-cell-11-membrane" d="M -19.8 -8.58 C -20.24 -20.28 -7.48 -27.56 4.84 -25.48 C 18.26 -25.48 22.88 -10.92 21.34 4.42 C 21.12 19.76 7.92 29.64 -3.96 25.22 C -17.6 23.66 -22.22 7.54 -19.8 -8.58 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-11-nucleus" cx="0.44" cy="1.95" rx="6.78" ry="8.42" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.44 1.95)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-12">
+          <title>Epithelial cell</title>
+          <g transform="translate(1770 660) rotate(-15)">
+            <path id="luad-upper-cell-12-membrane" d="M -18 -8.25 C -19.3 -19.5 -6.8 -27.12 4.4 -24.5 C 16.6 -24.5 20.8 -10.5 19.4 4.25 C 19.2 19 7.2 27.38 -3.6 24.25 C -16 22.75 -20.2 7.25 -18 -8.25 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-12-nucleus" cx="2.8" cy="3.63" rx="6.52" ry="8.4" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 2.8 3.63)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-13">
+          <title>Epithelial cell</title>
+          <g transform="translate(1744 639) rotate(37)">
+            <path id="luad-upper-cell-13-membrane" d="M -19.8 -8.58 C -22.22 -20.28 -7.48 -28.86 4.84 -25.48 C 18.26 -25.48 22.88 -10.92 21.34 4.42 C 21.12 19.76 7.92 27.3 -3.96 25.22 C -17.6 23.66 -22.22 7.54 -19.8 -8.58 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-13-nucleus" cx="-2.2" cy="-1.69" rx="6.38" ry="7.8" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -2.2 -1.69)"/>
+          </g>
+        </g>
+        <g id="luad-upper-cell-14">
+          <title>Epithelial cell</title>
+          <g transform="translate(1714 625) rotate(35)">
+            <path id="luad-upper-cell-14-membrane" d="M -21.6 -7.92 C -25.32 -18.72 -8.16 -27.24 5.28 -23.52 C 19.92 -23.52 24.96 -10.08 23.28 4.08 C 23.04 18.24 8.64 24.12 -4.32 23.28 C -19.2 21.84 -24.24 6.96 -21.6 -7.92 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-upper-cell-14-nucleus" cx="0.48" cy="0.12" rx="7.39" ry="7.49" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.48 0.12)"/>
+          </g>
+        </g>
+      </g>
+      <g id="luad-lower-gland">
+        <title>Lower irregular invasive gland</title>
+        <path id="luad-lower-gland-backing" d="M 1880 709 C 1898 688 1920 671 1942 679 C 1972 681 1982 710 1966 737 C 1955 759 1924 765 1901 779 C 1877 791 1852 795 1853 826 C 1856 858 1847 894 1824 917 C 1801 940 1765 949 1741 940 C 1716 928 1715 903 1724 877 C 1735 846 1770 826 1796 806 C 1832 779 1857 747 1880 709 Z M 1886 748 C 1905 738 1923 729 1926 716 C 1912 716 1903 729 1886 748 Z M 1754 893 C 1764 874 1784 860 1803 846 C 1814 837 1824 823 1829 810 C 1818 835 1817 853 1815 874 C 1811 893 1788 911 1769 913 C 1759 913 1748 907 1754 893 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd"/>
+        <g id="luad-lower-cell-01">
+          <title>Epithelial cell</title>
+          <g transform="translate(1935 695) rotate(-4)">
+            <path id="luad-lower-cell-01-membrane" d="M -24.3 -6.6 C -24.84 -15.6 -9.18 -19.7 5.94 -19.6 C 22.41 -19.6 28.08 -8.4 26.19 3.4 C 25.92 15.2 9.72 22.8 -4.86 19.4 C -21.6 18.2 -27.27 5.8 -24.3 -6.6 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-01-nucleus" cx="-2.7" cy="-1.3" rx="7.83" ry="6" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -2.7 -1.3)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-02">
+          <title>Epithelial cell</title>
+          <g transform="translate(1951 720) rotate(35)">
+            <path id="luad-lower-cell-02-membrane" d="M -18.9 -8.25 C -20.26 -19.5 -7.14 -25.25 4.62 -24.5 C 17.43 -24.5 21.84 -10.5 20.37 4.25 C 20.16 19 7.56 27.38 -3.78 24.25 C -16.8 22.75 -21.21 7.25 -18.9 -8.25 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-02-nucleus" cx="0.42" cy="0.12" rx="6.47" ry="7.8" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.42 0.12)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-03">
+          <title>Epithelial cell</title>
+          <g transform="translate(1930 745) rotate(-20)">
+            <path id="luad-lower-cell-03-membrane" d="M -22.5 -6.27 C -25.25 -14.82 -8.5 -19.67 5.5 -18.62 C 20.75 -18.62 26 -7.98 24.25 3.23 C 24 14.44 9 19.95 -4.5 18.43 C -20 17.29 -25.25 5.51 -22.5 -6.27 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-03-nucleus" cx="3.5" cy="1.43" rx="8.15" ry="6.16" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 3.5 1.43)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-04">
+          <title>Epithelial cell</title>
+          <g transform="translate(1904 765) rotate(-20)">
+            <path id="luad-lower-cell-04-membrane" d="M -21.6 -5.28 C -25.32 -12.48 -8.16 -16.96 5.28 -15.68 C 19.92 -15.68 24.96 -6.72 23.28 2.72 C 23.04 12.16 8.64 16.08 -4.32 15.52 C -19.2 14.56 -24.24 4.64 -21.6 -5.28 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-04-nucleus" cx="-2.4" cy="2.32" rx="6.96" ry="5.38" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -2.4 2.32)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-05">
+          <title>Epithelial cell</title>
+          <g transform="translate(1866 775) rotate(-35)">
+            <path id="luad-lower-cell-05-membrane" d="M -17.1 -4.29 C -20.9 -10.14 -6.46 -14.1 4.18 -12.74 C 15.77 -12.74 19.76 -5.46 18.43 2.21 C 18.24 9.88 6.84 12.48 -3.42 12.61 C -15.2 11.83 -19.19 3.77 -17.1 -4.29 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-05-nucleus" cx="0.38" cy="-0.84" rx="5.85" ry="3.9" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.38 -0.84)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-06">
+          <title>Epithelial cell</title>
+          <g transform="translate(1844 800) rotate(27)">
+            <path id="luad-lower-cell-06-membrane" d="M -11.7 -7.92 C -11.96 -18.72 -4.42 -26.64 2.86 -23.52 C 10.79 -23.52 13.52 -10.08 12.61 4.08 C 12.48 18.24 4.68 27.36 -2.34 23.28 C -10.4 21.84 -13.13 6.96 -11.7 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-06-nucleus" cx="1.82" cy="0.12" rx="4.24" ry="7.49" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 1.82 0.12)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-07">
+          <title>Epithelial cell</title>
+          <g transform="translate(1835 832) rotate(10)">
+            <path id="luad-lower-cell-07-membrane" d="M -14.4 -8.58 C -15.44 -20.28 -5.44 -29.51 3.52 -25.48 C 13.28 -25.48 16.64 -10.92 15.52 4.42 C 15.36 19.76 5.76 28.47 -2.88 25.22 C -12.8 23.66 -16.16 7.54 -14.4 -8.58 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-07-nucleus" cx="-1.6" cy="1.95" rx="4.64" ry="8.42" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -1.6 1.95)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-08">
+          <title>Epithelial cell</title>
+          <g transform="translate(1832 865) rotate(-12)">
+            <path id="luad-lower-cell-08-membrane" d="M -15.3 -8.58 C -17.17 -20.28 -5.78 -25.61 3.74 -25.48 C 14.11 -25.48 17.68 -10.92 16.49 4.42 C 16.32 19.76 6.12 27.3 -3.06 25.22 C -13.6 23.66 -17.17 7.54 -15.3 -8.58 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-08-nucleus" cx="0.34" cy="3.77" rx="5.24" ry="8.74" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.34 3.77)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-09">
+          <title>Epithelial cell</title>
+          <g transform="translate(1819 889) rotate(-12)">
+            <path id="luad-lower-cell-09-membrane" d="M -16.2 -8.25 C -18.99 -19.5 -6.12 -25.25 3.96 -24.5 C 14.94 -24.5 18.72 -10.5 17.46 4.25 C 17.28 19 6.48 25.13 -3.24 24.25 C -14.4 22.75 -18.18 7.25 -16.2 -8.25 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-09-nucleus" cx="2.52" cy="-1.62" rx="5.87" ry="7.5" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 2.52 -1.62)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-10">
+          <title>Epithelial cell</title>
+          <g transform="translate(1799 908) rotate(-20)">
+            <path id="luad-lower-cell-10-membrane" d="M -16.2 -7.92 C -19.8 -18.72 -6.12 -24.84 3.96 -23.52 C 14.94 -23.52 18.72 -10.08 17.46 4.08 C 17.28 18.24 6.48 23.04 -3.24 23.28 C -14.4 21.84 -18.18 6.96 -16.2 -7.92 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-10-nucleus" cx="-1.8" cy="0.12" rx="5.22" ry="7.49" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -1.8 0.12)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-11">
+          <title>Epithelial cell</title>
+          <g transform="translate(1774 921) rotate(-8)">
+            <path id="luad-lower-cell-11-membrane" d="M -16.2 -7.26 C -16.56 -17.16 -6.12 -23.32 3.96 -21.56 C 14.94 -21.56 18.72 -9.24 17.46 3.74 C 17.28 16.72 6.48 25.08 -3.24 21.34 C -14.4 20.02 -18.18 6.38 -16.2 -7.26 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-11-nucleus" cx="0.36" cy="1.65" rx="5.54" ry="7.13" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.36 1.65)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-12">
+          <title>Epithelial cell</title>
+          <g transform="translate(1747 921) rotate(15)">
+            <path id="luad-lower-cell-12-membrane" d="M -17.1 -7.26 C -18.33 -17.16 -6.46 -23.87 4.18 -21.56 C 15.77 -21.56 19.76 -9.24 18.43 3.74 C 18.24 16.72 6.84 24.09 -3.42 21.34 C -15.2 20.02 -19.19 6.38 -17.1 -7.26 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-12-nucleus" cx="2.66" cy="3.19" rx="6.19" ry="7.39" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 2.66 3.19)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-13">
+          <title>Epithelial cell</title>
+          <g transform="translate(1734 893) rotate(14)">
+            <path id="luad-lower-cell-13-membrane" d="M -14.4 -8.91 C -16.16 -21.06 -5.44 -29.97 3.52 -26.46 C 13.28 -26.46 16.64 -11.34 15.52 4.59 C 15.36 20.52 5.76 28.35 -2.88 26.19 C -12.8 24.57 -16.16 7.83 -14.4 -8.91 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-13-nucleus" cx="-1.6" cy="-1.75" rx="4.64" ry="8.1" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -1.6 -1.75)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-14">
+          <title>Epithelial cell</title>
+          <g transform="translate(1747 859) rotate(20)">
+            <path id="luad-lower-cell-14-membrane" d="M -18.9 -7.92 C -22.15 -18.72 -7.14 -27.24 4.62 -23.52 C 17.43 -23.52 21.84 -10.08 20.37 4.08 C 20.16 18.24 7.56 24.12 -3.78 23.28 C -16.8 21.84 -21.21 6.96 -18.9 -7.92 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-14-nucleus" cx="0.42" cy="0.12" rx="6.47" ry="7.49" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.42 0.12)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-15">
+          <title>Epithelial cell</title>
+          <g transform="translate(1773 833) rotate(-18)">
+            <path id="luad-lower-cell-15-membrane" d="M -19.8 -5.61 C -24.2 -13.26 -7.48 -16.74 4.84 -16.66 C 18.26 -16.66 22.88 -7.14 21.34 2.89 C 21.12 12.92 7.92 16.32 -3.96 16.49 C -17.6 15.47 -22.22 4.93 -19.8 -5.61 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-15-nucleus" cx="3.08" cy="1.28" rx="7.17" ry="5.51" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 3.08 1.28)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-16">
+          <title>Epithelial cell</title>
+          <g transform="translate(1800 814) rotate(-30)">
+            <path id="luad-lower-cell-16-membrane" d="M -18 -5.61 C -18.4 -13.26 -6.8 -17.17 4.4 -16.66 C 16.6 -16.66 20.8 -7.14 19.4 2.89 C 19.2 12.92 7.2 19.38 -3.6 16.49 C -16 15.47 -20.2 4.93 -18 -5.61 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-16-nucleus" cx="-2" cy="2.47" rx="5.8" ry="5.71" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 -2 2.47)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-17">
+          <title>Epithelial cell</title>
+          <g transform="translate(1826 789) rotate(-28)">
+            <path id="luad-lower-cell-17-membrane" d="M -20.7 -5.61 C -22.19 -13.26 -7.82 -17.6 5.06 -16.66 C 19.09 -16.66 23.92 -7.14 22.31 2.89 C 22.08 12.92 8.28 18.61 -4.14 16.49 C -18.4 15.47 -23.23 4.93 -20.7 -5.61 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-17-nucleus" cx="0.46" cy="-1.1" rx="7.08" ry="5.1" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 0.46 -1.1)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-18">
+          <title>Epithelial cell</title>
+          <g transform="translate(1852 768) rotate(-15)">
+            <path id="luad-lower-cell-18-membrane" d="M -11.7 -5.28 C -13.13 -12.48 -4.42 -16.96 2.86 -15.68 C 10.79 -15.68 13.52 -6.72 12.61 2.72 C 12.48 12.16 4.68 16.8 -2.34 15.52 C -10.4 14.56 -13.13 4.64 -11.7 -5.28 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-18-nucleus" cx="1.82" cy="0.08" rx="4.24" ry="4.99" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 1.82 0.08)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-19">
+          <title>Epithelial cell</title>
+          <g transform="translate(1882 733) rotate(20)">
+            <path id="luad-lower-cell-19-membrane" d="M -14.4 -6.93 C -16.88 -16.38 -5.44 -22.78 3.52 -20.58 C 13.28 -20.58 16.64 -8.82 15.52 3.57 C 15.36 15.96 5.76 21.11 -2.88 20.37 C -12.8 19.11 -16.16 6.09 -14.4 -6.93 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-19-nucleus" cx="-1.6" cy="1.58" rx="4.64" ry="6.8" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-12 -1.6 1.58)"/>
+          </g>
+        </g>
+        <g id="luad-lower-cell-20">
+          <title>Epithelial cell</title>
+          <g transform="translate(1906 706) rotate(36)">
+            <path id="luad-lower-cell-20-membrane" d="M -15.3 -6.93 C -18.7 -16.38 -5.78 -23.31 3.74 -20.58 C 14.11 -20.58 17.68 -8.82 16.49 3.57 C 16.32 15.96 6.12 20.16 -3.06 20.37 C -13.6 19.11 -17.17 6.09 -15.3 -6.93 Z" fill="#DFA09D" stroke="#514443" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <ellipse id="luad-lower-cell-20-nucleus" cx="0.34" cy="3.05" rx="5.24" ry="7.06" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(13 0.34 3.05)"/>
+          </g>
+        </g>
+        <g id="luad-lower-gland-bud">
+          <title>Small associated epithelial nest</title>
+          <path id="luad-gland-bud-membrane" d="M 1889 795 C 1900 779 1917 784 1929 800 C 1944 808 1951 823 1940 837 C 1926 851 1908 840 1898 830 C 1884 819 1877 809 1889 795 Z" fill="#E5AAA5" stroke="#514443" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="luad-gland-bud-cell-boundary" d="M 1911 786 C 1920 802 1907 818 1911 835" fill="none" stroke="#514443" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse id="luad-gland-bud-nucleus-01" cx="1906" cy="804" rx="12" ry="15" fill="#C88B8D" stroke="#775356" stroke-width="1.1" transform="rotate(-16 1906 804)"/>
+          <ellipse id="luad-gland-bud-nucleus-02" cx="1922" cy="825" rx="8" ry="10" fill="#C88B8D" stroke="#775356" stroke-width="1.05" transform="rotate(-30 1922 825)"/>
+        </g>
+      </g>
+    </g>
+    <g id="luad-immune-cells">
+      <title>Representative stromal immune cells</title>
+      <g id="luad-immune-sage-01">
+        <title>Representative immune cell</title>
+        <ellipse id="luad-immune-sage-01-membrane" cx="1668" cy="487" rx="14" ry="15" fill="#B7CCB8" stroke="#657B6B" stroke-width="1.2" transform="rotate(-8 1668 487)"/>
+      </g>
+      <g id="luad-immune-sage-02">
+        <title>Representative immune cell</title>
+        <ellipse id="luad-immune-sage-02-membrane" cx="1953" cy="561" rx="23" ry="27" fill="#B7CCB8" stroke="#657B6B" stroke-width="1.2" transform="rotate(-8 1953 561)"/>
+        <ellipse id="luad-immune-sage-02-nucleus" cx="1952" cy="562" rx="13.34" ry="16.47" fill="#8DAA94" stroke="#657B6B" stroke-width="0.95" transform="rotate(-8 1952 562)"/>
+      </g>
+      <g id="luad-immune-sage-03">
+        <title>Representative immune cell</title>
+        <ellipse id="luad-immune-sage-03-membrane" cx="2010" cy="731" rx="15" ry="17" fill="#B7CCB8" stroke="#657B6B" stroke-width="1.2" transform="rotate(-8 2010 731)"/>
+      </g>
+      <g id="luad-immune-lavender-01">
+        <title>Representative immune cell</title>
+        <ellipse id="luad-immune-lavender-01-membrane" cx="1984" cy="476" rx="19" ry="21" fill="#CBB2D5" stroke="#705A7E" stroke-width="1.2" transform="rotate(-8 1984 476)"/>
+        <ellipse id="luad-immune-lavender-01-nucleus" cx="1983" cy="477" rx="11.02" ry="12.81" fill="#AD8CBC" stroke="#705A7E" stroke-width="0.95" transform="rotate(-8 1983 477)"/>
+      </g>
+      <g id="luad-immune-lavender-02">
+        <title>Representative immune cell</title>
+        <ellipse id="luad-immune-lavender-02-membrane" cx="1903" cy="595" rx="19" ry="20" fill="#CBB2D5" stroke="#705A7E" stroke-width="1.2" transform="rotate(-8 1903 595)"/>
+        <ellipse id="luad-immune-lavender-02-nucleus" cx="1902" cy="596" rx="11.02" ry="12.2" fill="#AD8CBC" stroke="#705A7E" stroke-width="0.95" transform="rotate(-8 1902 596)"/>
+      </g>
+      <g id="luad-immune-lavender-03">
+        <title>Representative immune cell</title>
+        <ellipse id="luad-immune-lavender-03-membrane" cx="1958" cy="617" rx="18" ry="20" fill="#CBB2D5" stroke="#705A7E" stroke-width="1.2" transform="rotate(-8 1958 617)"/>
+        <ellipse id="luad-immune-lavender-03-nucleus" cx="1957" cy="618" rx="10.44" ry="12.2" fill="#AD8CBC" stroke="#705A7E" stroke-width="0.95" transform="rotate(-8 1957 618)"/>
+      </g>
+      <g id="luad-immune-lavender-04">
+        <title>Representative immune cell</title>
+        <ellipse id="luad-immune-lavender-04-membrane" cx="1675" cy="761" rx="21" ry="23" fill="#CBB2D5" stroke="#705A7E" stroke-width="1.2" transform="rotate(-8 1675 761)"/>
+        <ellipse id="luad-immune-lavender-04-nucleus" cx="1674" cy="762" rx="12.18" ry="14.03" fill="#AD8CBC" stroke="#705A7E" stroke-width="0.95" transform="rotate(-8 1674 762)"/>
+      </g>
+      <g id="luad-immune-lavender-05">
+        <title>Representative immune cell</title>
+        <ellipse id="luad-immune-lavender-05-membrane" cx="1915" cy="946" rx="19" ry="23" fill="#CBB2D5" stroke="#705A7E" stroke-width="1.2" transform="rotate(-8 1915 946)"/>
+        <ellipse id="luad-immune-lavender-05-nucleus" cx="1914" cy="947" rx="11.02" ry="14.03" fill="#AD8CBC" stroke="#705A7E" stroke-width="0.95" transform="rotate(-8 1914 947)"/>
+      </g>
+    </g>
+  </g>
+  <g id="program-labels">
+    <title>Program names</title>
+    <text id="program-label-v1" x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="400" text-anchor="start" fill="#282525" transform="translate(48 1084) scale(0.82 1)">V1 Proliferation</text>
+    <text id="program-label-v2" x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="400" text-anchor="start" fill="#282525" transform="translate(48 1320) scale(0.82 1)">V2 Remodeling</text>
+    <text id="program-label-v3" x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="400" text-anchor="start" fill="#282525" transform="translate(48 1556) scale(0.82 1)">V3 Stress adaptation</text>
+    <text id="program-label-v4" x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="400" text-anchor="start" fill="#282525" transform="translate(48 1792) scale(0.82 1)">V4 Adhesion / immune</text>
+  </g>
+  <g id="program-v1">
+    <title>V1 qualitative program state</title>
+    <rect id="v1-normal" x="114" y="1110" width="377" height="124" fill="#D5D3D6"/>
+    <rect id="v1-aah" x="495" y="1110" width="377" height="124" fill="#C6C2C7"/>
+    <rect id="v1-ais" x="876" y="1110" width="377" height="124" fill="#B6B1B7"/>
+    <rect id="v1-mia" x="1257" y="1110" width="377" height="124" fill="#B6B1B7"/>
+    <rect id="v1-luad" x="1638" y="1110" width="377" height="124" fill="#9C969E"/>
+  </g>
+  <g id="program-v2">
+    <title>V2 qualitative program state</title>
+    <rect id="v2-normal" x="114" y="1346" width="377" height="124" fill="#DCE8E9"/>
+    <rect id="v2-aah" x="495" y="1346" width="377" height="124" fill="#DCE8E9"/>
+    <rect id="v2-ais" x="876" y="1346" width="377" height="124" fill="#BBD2D4"/>
+    <rect id="v2-mia" x="1257" y="1346" width="377" height="124" fill="#BBD2D4"/>
+    <rect id="v2-luad" x="1638" y="1346" width="377" height="124" fill="#3D7D83"/>
+  </g>
+  <g id="program-v3">
+    <title>V3 qualitative program state</title>
+    <rect id="v3-normal" x="114" y="1582" width="377" height="124" fill="#F3E8D5"/>
+    <rect id="v3-aah" x="495" y="1582" width="377" height="124" fill="#F3E8D5"/>
+    <rect id="v3-ais" x="876" y="1582" width="377" height="124" fill="#E9D6B3"/>
+    <rect id="v3-mia" x="1257" y="1582" width="377" height="124" fill="#E5CEA5"/>
+    <rect id="v3-luad" x="1638" y="1582" width="377" height="124" fill="#C28E2D"/>
+  </g>
+  <g id="program-v4">
+    <title>V4 qualitative program state</title>
+    <rect id="v4-normal" x="114" y="1818" width="377" height="124" fill="#916498"/>
+    <rect id="v4-aah" x="495" y="1818" width="377" height="124" fill="#916498"/>
+    <rect id="v4-ais" x="876" y="1818" width="377" height="124" fill="#B08FB5"/>
+    <rect id="v4-mia" x="1257" y="1818" width="377" height="124" fill="#BFA5C3"/>
+    <rect id="v4-luad" x="1638" y="1818" width="377" height="124" fill="#E1D5E3"/>
+  </g>
+</svg>
